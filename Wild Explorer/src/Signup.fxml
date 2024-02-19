@@ -21,14 +21,16 @@
             <Font name="System Italic" size="33.0" />
          </font>
       </Text>
-      <PasswordField layoutX="643.0" layoutY="425.0" prefHeight="37.0" prefWidth="188.0" promptText="Password" />
-      <TextField layoutX="643.0" layoutY="329.0" prefHeight="37.0" prefWidth="188.0" promptText="Email" />
-      <Button id="text" layoutX="642.0" layoutY="542.0" mnemonicParsing="false" onAction="#ClickMeOnAction" prefHeight="37.0" prefWidth="188.0" style="-fx-background-color: rgba(25, 74, 80, 1); -fx-background-radius: 10;" text="Sign up" textFill="WHITE">
+      <PasswordField layoutX="614.0" layoutY="485.0" prefHeight="37.0" prefWidth="243.0" promptText="Password" style="-fx-background-radius: 5;" />
+      <Button id="text" layoutX="614.0" layoutY="608.0" mnemonicParsing="false" onAction="#ClickMeOnAction" prefHeight="44.0" prefWidth="243.0" style="-fx-background-color: rgba(25, 74, 80, 1); -fx-background-radius: 10;" text="Sign up" textFill="WHITE">
          <font>
             <Font size="20.0" />
          </font>
       </Button>
-      <PasswordField layoutX="642.0" layoutY="473.0" prefHeight="37.0" prefWidth="188.0" promptText="Confirm Password" />
-      <TextField layoutX="643.0" layoutY="377.0" prefHeight="37.0" prefWidth="188.0" promptText="Age" />
+      <PasswordField layoutX="614.0" layoutY="537.0" prefHeight="37.0" prefWidth="243.0" promptText="Confirm Password" style="-fx-background-radius: 5;" />
+      <TextField layoutX="614.0" layoutY="432.0" prefHeight="37.0" prefWidth="243.0" promptText="Age" style="-fx-background-radius: 5;" />
+      <TextField layoutX="614.0" layoutY="381.0" prefHeight="37.0" prefWidth="243.0" promptText="Email" style="-fx-background-radius: 5;" />
+      <TextField layoutX="614.0" layoutY="330.0" prefHeight="37.0" prefWidth="113.0" promptText="First Name" style="-fx-background-radius: 5;" />
+      <TextField layoutX="744.0" layoutY="330.0" prefHeight="37.0" prefWidth="113.0" promptText="Last Name" style="-fx-background-radius: 5;" />
    </children>
 </AnchorPane>

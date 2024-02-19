@@ -18,6 +18,6 @@ public class Logincontroller {
         Stage stage = (Stage) context.getScene().getWindow();
         stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("./"+location+".fxml"))));
         stage.centerOnScreen();
-    } {
     }
+
 }
