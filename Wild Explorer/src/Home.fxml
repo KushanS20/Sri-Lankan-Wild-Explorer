@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.Hyperlink?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
@@ -9,8 +10,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-
-<AnchorPane prefHeight="962.0" prefWidth="1357.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Homecontroller">
+<AnchorPane fx:id="context" prefHeight="962.0" prefWidth="1357.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Homecontroller">
    <children>
       <ImageView fitHeight="977.0" fitWidth="1465.0" layoutX="-62.0" layoutY="-3.0" pickOnBounds="true" preserveRatio="true">
          <image>
@@ -47,5 +47,101 @@
             <Font size="29.0" />
          </font>
       </Text>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffffff4d" height="164.0" layoutX="99.0" layoutY="521.0" stroke="BLACK" strokeType="INSIDE" width="263.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffffff4d" height="164.0" layoutX="99.0" layoutY="706.0" stroke="BLACK" strokeType="INSIDE" width="263.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffffff4d" height="164.0" layoutX="386.0" layoutY="521.0" stroke="BLACK" strokeType="INSIDE" width="263.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffffff4d" height="164.0" layoutX="386.0" layoutY="706.0" stroke="BLACK" strokeType="INSIDE" width="263.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffffff4d" height="164.0" layoutX="671.0" layoutY="521.0" stroke="BLACK" strokeType="INSIDE" width="263.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffffff4d" height="164.0" layoutX="671.0" layoutY="706.0" stroke="BLACK" strokeType="INSIDE" width="263.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffffff4d" height="164.0" layoutX="957.0" layoutY="521.0" stroke="BLACK" strokeType="INSIDE" width="263.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffffff4d" height="164.0" layoutX="957.0" layoutY="706.0" stroke="BLACK" strokeType="INSIDE" width="263.0" />
+      <ImageView fitHeight="164.0" fitWidth="263.0" layoutX="99.0" layoutY="146.0">
+         <image>
+            <Image url="@Assests/Leonardo_Diffusion_XL_sri_lankan_wild_elephant_2.jpg" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00000099" height="164.0" layoutX="99.0" layoutY="146.0" opacity="0.84" stroke="BLACK" strokeType="INSIDE" width="263.0" />
+      <ImageView fitHeight="164.0" fitWidth="263.0" layoutX="386.0" layoutY="146.0">
+         <image>
+            <Image url="@Assests/Leonardo_Diffusion_XL_sri_lankan_leopard_1.jpg" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00000099" height="164.0" layoutX="386.0" layoutY="146.0" stroke="BLACK" strokeType="INSIDE" width="263.0" />
+      <ImageView fitHeight="164.0" fitWidth="263.0" layoutX="671.0" layoutY="146.0">
+         <image>
+            <Image url="@Assests/Leonardo_Diffusion_XL_sri_lankan_stag_1.jpg" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00000099" height="164.0" layoutX="671.0" layoutY="146.0" stroke="BLACK" strokeType="INSIDE" width="263.0" />
+      <ImageView fitHeight="164.0" fitWidth="263.0" layoutX="958.0" layoutY="146.0">
+         <image>
+            <Image url="@Assests/Default_sri_lankan_wild_boar_1.jpg" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00000099" height="164.0" layoutX="957.0" layoutY="146.0" stroke="BLACK" strokeType="INSIDE" width="263.0" />
+      <ImageView fitHeight="164.0" fitWidth="263.0" layoutX="99.0" layoutY="331.0">
+         <image>
+            <Image url="@Assests/Default_sri_lankan_pack_of_wild_deer_1.jpg" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00000099" height="164.0" layoutX="99.0" layoutY="331.0" stroke="BLACK" strokeType="INSIDE" width="263.0" />
+      <ImageView fitHeight="164.0" fitWidth="263.0" layoutX="386.0" layoutY="333.0">
+         <image>
+            <Image url="@Assests/Default_sri_lankan_wild_bear_1.jpg" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00000099" height="164.0" layoutX="386.0" layoutY="331.0" stroke="BLACK" strokeType="INSIDE" width="263.0" />
+      <ImageView fitHeight="164.0" fitWidth="263.0" layoutX="671.0" layoutY="331.0">
+         <image>
+            <Image url="@Assests/147990365150100.png" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00000099" height="164.0" layoutX="671.0" layoutY="331.0" stroke="BLACK" strokeType="INSIDE" width="263.0" />
+      <ImageView fitHeight="164.0" fitWidth="263.0" layoutX="958.0" layoutY="333.0">
+         <image>
+            <Image url="@Assests/Default_sri_lankan_wild_porcupine_1.jpg" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00000099" height="164.0" layoutX="957.0" layoutY="331.0" stroke="BLACK" strokeType="INSIDE" width="263.0" />
+      <Hyperlink layoutX="115.0" layoutY="166.0" onAction="#ElephantOnAction" text="Elephant" textFill="WHITE">
+         <font>
+            <Font name="Curlz MT" size="60.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="411.0" layoutY="172.0" onAction="#ElephantOnAction" text="Leopard" textFill="WHITE">
+         <font>
+            <Font name="Curlz MT" size="60.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="739.0" layoutY="172.0" onAction="#ElephantOnAction" text="Stag" textFill="WHITE">
+         <font>
+            <Font name="Curlz MT" size="60.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="1019.0" layoutY="166.0" onAction="#ElephantOnAction" text="Boar" textFill="WHITE">
+         <font>
+            <Font name="Curlz MT" size="60.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="159.0" layoutY="357.0" onAction="#ElephantOnAction" text="Deer" textFill="WHITE">
+         <font>
+            <Font name="Curlz MT" size="60.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="450.0" layoutY="357.0" onAction="#ElephantOnAction" text="Bear" textFill="WHITE">
+         <font>
+            <Font name="Curlz MT" size="60.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="672.0" layoutY="366.0" onAction="#ElephantOnAction" text="Jungle Fowl" textFill="WHITE">
+         <font>
+            <Font name="Curlz MT" size="50.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="956.0" layoutY="357.0" onAction="#ElephantOnAction" text="Porcupine" textFill="WHITE">
+         <font>
+            <Font name="Curlz MT" size="60.0" />
+         </font>
+      </Hyperlink>
    </children>
 </AnchorPane>
