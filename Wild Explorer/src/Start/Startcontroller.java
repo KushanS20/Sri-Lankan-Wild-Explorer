@@ -1,3 +1,5 @@
+package Start;
+
 import com.sun.xml.internal.ws.policy.privateutil.PolicyUtils;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXMLLoader;
@@ -16,7 +18,9 @@ public class Startcontroller {
     }
     private void setUi(String location)throws IOException{
         Stage stage = (Stage) context.getScene().getWindow();
-        stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("./"+location+".fxml"))));
+        stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("../login/"+location+".fxml"))));
         stage.centerOnScreen();
+
+
     }
 }
