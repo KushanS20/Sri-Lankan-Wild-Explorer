@@ -8,3 +8,10 @@
     -fx-font-family: "Open Sans";
     -fx-font-weight: bold;
 }
+
+#b {
+    -fx-font-size: 20;
+    -fx-background-color: white;
+    -fx-font-family: "Open Sans";
+    -fx-font-weight: bold;
+}

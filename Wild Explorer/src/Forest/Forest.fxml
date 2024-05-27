@@ -13,7 +13,7 @@
 
 <AnchorPane fx:id="context" prefHeight="962.0" prefWidth="1357.0" stylesheets="../new.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Forest.Forestcontroller">
     <children>
-        <ImageView fitHeight="977.0" fitWidth="1465.0" layoutX="-62.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+        <ImageView fitHeight="977.0" fitWidth="1465.0" layoutX="-60.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
             <image>
                 <Image url="@../Assests/PhotoReal_wild_explorer_learning_platform_0.jpg" />
             </image>
@@ -113,5 +113,71 @@
                 <Image url="@../Assests/exit.png" />
             </image>
         </ImageView>
+      <ImageView fitHeight="219.0" fitWidth="393.0" layoutX="272.0" layoutY="128.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Assests/Yala.jpg" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffffff80" height="219.0" layoutX="597.0" layoutY="128.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="690.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00000066" height="219.0" layoutX="272.0" layoutY="128.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="327.0" />
+      <Text layoutX="652.0" layoutY="173.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Yala National Park is a big, exciting park in Sri Lanka where you can see lots of wild animals in their natural home. It's like a huge outdoor zoo with no cages! There are elephants, leopards, crocodiles, and many colorful birds. You can ride in a special jeep with a guide to see these animals up close. The park is also full of beautiful trees, flowers, and rivers, making it a wonderful adventure in nature." wrappingWidth="587.4700927734375">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="219.0" fitWidth="393.0" layoutX="902.0" layoutY="413.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Assests/WIlpaththu.jpg" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffffff80" height="219.0" layoutX="274.0" layoutY="413.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="630.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#0000001a" height="219.0" layoutX="902.0" layoutY="413.0" stroke="#00000080" strokeType="INSIDE" strokeWidth="3.0" width="389.0" />
+      <Text layoutX="310.0" layoutY="450.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Wilpattu National Park is a large and beautiful park in Sri Lanka where you can see many wild animals living in their natural environment. It is famous for its many lakes, which are called &quot;villus.&quot; These lakes attract animals like elephants, leopards, and deer who come to drink water. You can take a special jeep ride through the park to see these animals and enjoy the peaceful, green surroundings. It's a fun place for a nature adventure!" wrappingWidth="556.4700927734375">
+         <font>
+            <Font size="18.5" />
+         </font>
+      </Text>
+      <ImageView fitHeight="219.0" fitWidth="393.0" layoutX="272.0" layoutY="703.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Assests/Sinharaja.jpg" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffffff80" height="227.0" layoutX="597.0" layoutY="703.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="690.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#0000001a" height="219.0" layoutX="272.0" layoutY="703.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="327.0" />
+      <Text layoutX="643.0" layoutY="739.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sinharaja Rainforest is a magical place in Sri Lanka filled with tall trees, vibrant plants, and lots of different animals. It's like stepping into a real-life jungle book! This rainforest is very special because it has many plants and animals that can't be found anywhere else in the world. You can walk on trails through the forest, see colorful birds, butterflies, and maybe even spot some monkeys swinging in the trees. It's a wonderful place to explore nature and discover the beauty of the jungle!" wrappingWidth="587.4700927734375">
+         <font>
+            <Font size="18.5" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="358.0" layoutY="257.0" strokeType="OUTSIDE" strokeWidth="0.0" text="YALA">
+         <font>
+            <Font name="Cambria" size="64.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="955.0" layoutY="545.0" strokeType="OUTSIDE" strokeWidth="0.0" text="WILPATTU">
+         <font>
+            <Font name="Cambria" size="64.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="282.0" layoutY="834.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SINHARAJA">
+         <font>
+            <Font name="Cambria" size="60.0" />
+         </font>
+      </Text>
+      <Button id="b" alignment="CENTER" blendMode="DARKEN" cache="true" contentDisplay="CENTER" graphicTextGap="0.0" layoutX="1138.0" layoutY="295.0" mnemonicParsing="false" onAction="#Yalaonaction" prefHeight="25.0" prefWidth="140.0" stylesheets="@../new.css" text="Learn More" textFill="#19526f">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Button>
+      <Button id="b" alignment="CENTER" blendMode="DARKEN" cache="true" contentDisplay="CENTER" graphicTextGap="0.0" layoutX="750.0" layoutY="580.0" mnemonicParsing="false" onAction="#Wilpattunaction" prefHeight="25.0" prefWidth="140.0" stylesheets="@../new.css" text="Learn More" textFill="#19526f">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Button>
+      <Button id="b" alignment="CENTER" blendMode="DARKEN" cache="true" contentDisplay="CENTER" graphicTextGap="0.0" layoutX="1139.0" layoutY="879.0" mnemonicParsing="false" onAction="#SinaharajaOnaction" prefHeight="25.0" prefWidth="140.0" stylesheets="@../new.css" text="Learn More" textFill="#19526f">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Button>
     </children>
 </AnchorPane>
