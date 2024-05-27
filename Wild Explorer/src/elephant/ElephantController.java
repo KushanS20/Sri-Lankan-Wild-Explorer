@@ -33,7 +33,7 @@ public class ElephantController {
 
 
     public void elephanttwoonaction(ActionEvent actionEvent) throws IOException {
-        setUi("elephant/Elehphanttwo");
+        setUi("elephant/elephantNext");
     }
 
     @FXML

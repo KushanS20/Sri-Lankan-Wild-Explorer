@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="context" prefHeight="962.0" prefWidth="1357.0" stylesheets="@../Assests/style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="deer.deer1Controller">
+    <Rectangle arcHeight="5.0" arcWidth="5.0" height="63.0" layoutY="-6.0" stroke="BLACK" strokeType="INSIDE" width="1413.0">
+        <fill>
+            <LinearGradient>
+                <stops>
+                    <Stop color="#615c2b" />
+                    <Stop color="#615c2b" offset="0.007662835249042145" />
+                    <Stop color="WHITE" offset="1.0" />
+                </stops>
+            </LinearGradient>
+        </fill>
+    </Rectangle>
+    <Text layoutX="38.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SRI LANKAN" wrappingWidth="141.0761260986328">
+        <font>
+            <Font size="21.0" />
+        </font>
+        <fill>
+            <LinearGradient endY="1.0" startY="1.0">
+                <stops>
+                    <Stop color="BLACK" />
+                    <Stop color="#cace00" offset="0.007662835249042145" />
+                    <Stop color="WHITE" offset="1.0" />
+                </stops>
+            </LinearGradient>
+        </fill>
+    </Text>
+    <Text fill="WHITE" layoutX="167.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="WILD EXPLORER" wrappingWidth="593.4094848632812">
+        <font>
+            <Font size="29.0" />
+        </font>
+    </Text>
+    <Pane layoutX="-1.0" layoutY="57.0" prefHeight="331.0" prefWidth="1414.0" style="-fx-background-color: black;">
+        <children>
+            <ImageView fitHeight="331.0" fitWidth="914.0" pickOnBounds="true">
+                <image>
+                    <Image url="@../Assests/reindeer-unique-hero.jpg" />
+                </image>
+            </ImageView>
+            <ImageView fitHeight="333.0" fitWidth="593.0" layoutX="823.0" layoutY="-1.0" pickOnBounds="true">
+                <image>
+                    <Image url="@../Assests/animal-hero-title-bg-tundra.png" />
+                </image>
+            </ImageView>
+            <Text fx:id="heroText1112" layoutX="912.0" layoutY="176.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded;" text="Deer" textAlignment="CENTER" wrappingWidth="189.0761260986328">
+                <font>
+                    <Font size="21.0" />
+                </font>
+            </Text>
+        </children></Pane>
+    <Pane id="bg" fx:id="bg" layoutY="388.0" prefHeight="578.0" prefWidth="1414.0" stylesheets="@../Assests/style.css">
+        <children>
+            <Pane layoutX="1.0" prefHeight="39.0" prefWidth="1413.0" style="-fx-background-color: orange;">
+                <children>
+                    <Text fx:id="heroText1" layoutX="355.0" layoutY="28.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded;" text="type" textAlignment="CENTER" wrappingWidth="141.0761260986328">
+                        <font>
+                            <Font size="21.0" />
+                        </font>
+                    </Text>
+                    <Text fx:id="heroText11" layoutX="649.0" layoutY="28.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded;" text="Area" textAlignment="CENTER" wrappingWidth="141.0761260986328">
+                        <font>
+                            <Font size="21.0" />
+                        </font>
+                    </Text>
+                    <Text fx:id="heroText111" layoutX="918.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded;" text="Endangered status" textAlignment="CENTER" wrappingWidth="189.0761260986328">
+                        <font>
+                            <Font size="21.0" />
+                        </font>
+                    </Text>
+                </children>
+            </Pane>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="333.0" layoutY="61.0" pickOnBounds="true" preserveRatio="true">
+                <image>
+                    <Image url="@../Assests/animal-icon-mammals.png" />
+                </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="631.0" layoutY="61.0" pickOnBounds="true" preserveRatio="true">
+                <image>
+                    <Image url="@../Assests/maps-asia.png" />
+                </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="913.0" layoutY="51.0" pickOnBounds="true" preserveRatio="true">
+                <image>
+                    <Image url="@../Assests/endangered_graph_stable.png" />
+                </image>
+            </ImageView>
+            <Text fx:id="heroText2" layoutX="368.0" layoutY="186.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded;" text="Mamals" textAlignment="CENTER" wrappingWidth="141.0761260986328">
+                <font>
+                    <Font size="21.0" />
+                </font>
+                <fill>
+                    <LinearGradient endX="1.0" endY="1.0" startY="1.0">
+                        <stops>
+                            <Stop>
+                                <color>
+                                    <Color />
+                                </color>
+                            </Stop>
+                            <Stop offset="0.007662835249042145">
+                                <color>
+                                    <Color blue="1.0" green="1.0" red="1.0" />
+                                </color>
+                            </Stop>
+                            <Stop offset="1.0">
+                                <color>
+                                    <Color blue="1.0" green="1.0" red="1.0" />
+                                </color>
+                            </Stop>
+                        </stops>
+                    </LinearGradient>
+                </fill>
+            </Text>
+            <Text fx:id="heroText21" layoutX="660.0" layoutY="187.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded;" text="Asia" textAlignment="CENTER" wrappingWidth="141.0761260986328">
+                <font>
+                    <Font size="21.0" />
+                </font>
+                <fill>
+                    <LinearGradient endX="1.0" endY="1.0" startY="1.0">
+                        <stops>
+                            <Stop>
+                                <color>
+                                    <Color />
+                                </color>
+                            </Stop>
+                            <Stop offset="0.007662835249042145">
+                                <color>
+                                    <Color blue="1.0" green="1.0" red="1.0" />
+                                </color>
+                            </Stop>
+                            <Stop offset="1.0">
+                                <color>
+                                    <Color blue="1.0" green="1.0" red="1.0" />
+                                </color>
+                            </Stop>
+                        </stops>
+                    </LinearGradient>
+                </fill>
+            </Text>
+            <Text fx:id="heroText22" layoutX="942.0" layoutY="185.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded;" text="Stable" textAlignment="CENTER" wrappingWidth="141.0761260986328">
+                <font>
+                    <Font size="21.0" />
+                </font>
+                <fill>
+                    <LinearGradient endX="1.0" endY="1.0" startY="1.0">
+                        <stops>
+                            <Stop>
+                                <color>
+                                    <Color />
+                                </color>
+                            </Stop>
+                            <Stop offset="0.007662835249042145">
+                                <color>
+                                    <Color blue="1.0" green="1.0" red="1.0" />
+                                </color>
+                            </Stop>
+                            <Stop offset="1.0">
+                                <color>
+                                    <Color blue="1.0" green="1.0" red="1.0" />
+                                </color>
+                            </Stop>
+                        </stops>
+                    </LinearGradient>
+                </fill>
+            </Text>
+            <Text fx:id="heroText24" layoutX="-10.0" layoutY="258.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded; -fx-rotate: 90;" text="facts" textAlignment="CENTER" wrappingWidth="141.0761260986328">
+                <font>
+                    <Font size="21.0" />
+                </font>
+                <fill>
+                    <LinearGradient endX="1.0" endY="1.0" startY="1.0">
+                        <stops>
+                            <Stop>
+                                <color>
+                                    <Color />
+                                </color>
+                            </Stop>
+                            <Stop offset="0.007662835249042145">
+                                <color>
+                                    <Color blue="1.0" green="1.0" red="1.0" />
+                                </color>
+                            </Stop>
+                            <Stop offset="1.0">
+                                <color>
+                                    <Color blue="1.0" green="1.0" red="1.0" />
+                                </color>
+                            </Stop>
+                        </stops>
+                    </LinearGradient>
+                </fill>
+            </Text>
+            <Pane layoutX="324.0" layoutY="225.0" prefHeight="317.0" prefWidth="263.0" style="-fx-background-color: #1338BE;">
+                <children>
+                    <Pane prefHeight="82.0" prefWidth="263.0" style="-fx-background-color: #63C5DA;">
+                        <children>
+                            <Text fx:id="heroText12" layoutX="32.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded;" text="Habitat &amp; life style" textAlignment="CENTER" wrappingWidth="199.9999999999999">
+                                <font>
+                                    <Font size="21.0" />
+                                </font>
+                            </Text>
+                        </children>
+                    </Pane>
+                    <Text fx:id="heroText12111" layoutX="8.0" layoutY="96.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded;" text="&gt;tundra, mountains, woodland" wrappingWidth="262.9999999999998">
+                        <font>
+                            <Font name="Arial Black" size="13.0" />
+                        </font>
+                    </Text>
+                    <Text fx:id="heroText121111" layoutX="8.0" layoutY="126.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded;" text="&gt;Deer are herbivores, feeding primarily on plant matter such as leaves, grasses, twigs, fruits, and acorns" wrappingWidth="262.9999999999998">
+                        <font>
+                            <Font name="Arial Black" size="13.0" />
+                        </font>
+                    </Text>
+                    <ImageView fitHeight="129.0" fitWidth="168.0" layoutX="41.0" layoutY="201.0" pickOnBounds="true" preserveRatio="true">
+                        <image>
+                            <Image url="@../Assests/habitats-tundra.png" />
+                        </image>
+                    </ImageView>
+                </children></Pane>
+            <Pane layoutX="631.0" layoutY="225.0" prefHeight="317.0" prefWidth="263.0" style="-fx-background-color: #1338BE;">
+                <children>
+                    <Pane prefHeight="82.0" prefWidth="263.0" style="-fx-background-color: #63C5DA;">
+                        <children>
+                            <Text fx:id="heroText112" layoutX="47.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded;" text="Physical Features" textAlignment="CENTER" wrappingWidth="168.2760772705078">
+                                <font>
+                                    <Font size="21.0" />
+                                </font>
+                            </Text>
+                        </children>
+                    </Pane>
+                    <Text fx:id="heroText1211" layoutX="9.0" layoutY="119.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded;" text="&gt;weigh around 20-30 pounds (9-14 kg), to large species like the moose, which can weigh up to 1,500 pounds (680 kg)" wrappingWidth="262.9999999999998">
+                        <font>
+                            <Font name="Arial Black" size="13.0" />
+                        </font>
+                    </Text>
+                    <Text fx:id="heroText121" layoutX="9.0" layoutY="101.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded;" text="&gt; 4 to 7 feet long" wrappingWidth="262.9999999999998">
+                        <font>
+                            <Font name="Arial Black" size="12.0" />
+                        </font>
+                    </Text>
+                    <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="50.0" layoutY="178.0" pickOnBounds="true" preserveRatio="true">
+                        <image>
+                            <Image url="@../Assests/card-bed-size-reindeer.png" />
+                        </image>
+                    </ImageView>
+                </children>
+            </Pane>
+            <Pane layoutX="925.0" layoutY="225.0" prefHeight="317.0" prefWidth="263.0" style="-fx-background-color: #1338BE;">
+                <children>
+                    <Pane prefHeight="82.0" prefWidth="263.0" style="-fx-background-color: #63C5DA;">
+                        <children>
+                            <Text fx:id="heroText1111" layoutX="37.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded;" text=" food &amp; threats" textAlignment="CENTER" wrappingWidth="189.0761260986328">
+                                <font>
+                                    <Font size="21.0" />
+                                </font>
+                            </Text>
+                        </children>
+                    </Pane>
+                    <ImageView fitHeight="111.0" fitWidth="154.0" layoutX="69.0" layoutY="209.0" pickOnBounds="true" preserveRatio="true">
+                        <image>
+                            <Image url="@../Assests/food-plants.png" />
+                        </image>
+                    </ImageView>
+                    <Text fx:id="heroText121122" layoutX="18.0" layoutY="106.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded;" text="&gt; plantsleaves, lichen, fungi" wrappingWidth="262.9999999999998">
+                        <font>
+                            <Font name="Arial Black" size="13.0" />
+                        </font>
+                    </Text>
+                    <Text fx:id="heroText121121" layoutX="14.0" layoutY="125.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded;" text="&gt; Deforestation, agricultural expansion, and urbanization " wrappingWidth="262.9999999999998">
+                        <font>
+                            <Font name="Arial Black" size="13.0" />
+                        </font>
+                    </Text>
+                </children></Pane>
+            <Button blendMode="LIGHTEN" layoutX="1255.0" layoutY="478.0" mnemonicParsing="false" onAction="#deersecondOnAction" prefHeight="55.0" prefWidth="123.0" style="-fx-background-color: white;" text="Next">
+            <font>
+               <Font name="System Bold" size="18.0" />
+            </font></Button>
+            <ImageView fitHeight="111.0" fitWidth="109.0" layoutX="92.0" layoutY="349.0" pickOnBounds="true" preserveRatio="true">
+                <image>
+                    <Image url="@../Assests/kids-sound-resting.png" />
+                </image>
+            </ImageView>
+            <Button blendMode="LIGHTEN" layoutX="90.0" layoutY="482.0" mnemonicParsing="false" onAction="#AnimalOnAction" prefHeight="55.0" prefWidth="123.0" style="-fx-background-color: white;" text="Home">
+                <font>
+                    <Font name="System Bold" size="18.0" />
+                </font>
+            </Button>
+        </children></Pane>
+    <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+    <Pane layoutX="9.0" prefHeight="200.0" prefWidth="200.0" />
+</AnchorPane>

@@ -1,4 +1,4 @@
-package Home;
+package Forest;
 
 import About.AboutController;
 import javafx.event.ActionEvent;
@@ -10,13 +10,12 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
-public class Homecontroller {
-
+public class Forestcontroller {
     public AnchorPane context;
 
     public void Homeonaction(ActionEvent actionEvent) throws IOException{
 
-    setUi("Home/Home");
+        setUi("Home/Home");
     }
 
     private void setUi(String location)throws IOException {
@@ -36,7 +35,6 @@ public class Homecontroller {
     public void QuizOnAction(ActionEvent actionEvent) throws IOException {
         setUi("Quiz/Quiz");
     }
-
 
     @FXML
     private void AboutOnAction() throws IOException {

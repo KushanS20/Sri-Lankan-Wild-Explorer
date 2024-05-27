@@ -1,5 +1,6 @@
 package Animal;
 
+import About.AboutController;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -18,23 +19,23 @@ public class Animalcontroller {
         setUi("elephant/Elephant");
     }
     public void LeopardOnAction(ActionEvent actionEvent)throws IOException {
-        setUi("leopard/Leopard");
+        setUi("Tiger/Tiger");
     }
     public void DeerOnAction(ActionEvent actionEvent)throws IOException {
-        setUi("deer/Deer");
+        setUi("deer/deer1");
     }
 
     public void BearOnAction(ActionEvent actionEvent) throws IOException {
-        setUi("bear/Bear");
+        setUi("bear/bear1");
     }
 
     public void PorcupineOnAction(ActionEvent actionEvent) throws IOException {
 
-        setUi("porcupine/Porcupine");
+        setUi("porcupine/porcupine1");
     }
 
     public void StagOnAction(ActionEvent actionEvent) throws IOException {
-        setUi("stag/Stag");
+        setUi("Lion/lion");
     }
 
     private void setUi(String location)throws IOException{
@@ -56,5 +57,22 @@ public class Animalcontroller {
 
     public void LogoutOnAction(ActionEvent actionEvent) throws IOException {
         setUi("Login/Login");
+    }
+
+    @FXML
+    private void AboutOnAction() throws IOException {
+        AboutController.display();
+    }
+
+    public void QuizOnAction(ActionEvent actionEvent)throws IOException {
+        setUi("Quiz/Quiz");
+    }
+
+    public void AnimalsOnAction(ActionEvent actionEvent)throws IOException {
+        setUi("Animal/Animal");
+    }
+
+    public void ForestOnAction(ActionEvent actionEvent)throws IOException {
+        setUi("Forest/Forest");
     }
 }

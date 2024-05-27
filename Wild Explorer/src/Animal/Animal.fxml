@@ -13,7 +13,7 @@
 
 <AnchorPane fx:id="context" prefHeight="962.0" prefWidth="1357.0" stylesheets="../new.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Animal.Animalcontroller">
    <children>
-      <ImageView fitHeight="977.0" fitWidth="1465.0" layoutX="-62.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="977.0" fitWidth="1465.0" layoutX="-62.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../Assests/PhotoReal_wild_explorer_learning_platform_0.jpg" />
          </image>
@@ -132,17 +132,17 @@
                   <Font name="System Bold" size="23.0" />
                </font>
             </Button>
-            <Button id="a" alignment="CENTER_RIGHT" blendMode="DARKEN" cache="true" layoutX="1.0" layoutY="64.0" mnemonicParsing="false" onAction="#ElephantOnAction" prefHeight="50.0" prefWidth="196.0" stylesheets="@../new.css" text="Animals ">
+            <Button id="a" alignment="CENTER_RIGHT" blendMode="DARKEN" cache="true" layoutX="1.0" layoutY="64.0" mnemonicParsing="false" onAction="#AnimalsOnAction" prefHeight="50.0" prefWidth="196.0" stylesheets="@../new.css" text="Animals ">
                <font>
                   <Font name="System Bold" size="23.0" />
                </font>
             </Button>
-            <Button id="a" alignment="CENTER_RIGHT" blendMode="DARKEN" cache="true" layoutX="2.0" layoutY="133.0" mnemonicParsing="false" onAction="#ElephantOnAction" prefHeight="50.0" prefWidth="196.0" stylesheets="@../new.css" text="Forests   ">
+            <Button id="a" alignment="CENTER_RIGHT" blendMode="DARKEN" cache="true" layoutX="2.0" layoutY="132.0" mnemonicParsing="false" onAction="#ForestOnAction" prefHeight="50.0" prefWidth="196.0" stylesheets="@../new.css" text="Forests   ">
                <font>
                   <Font name="System Bold" size="23.0" />
                </font>
             </Button>
-            <Button id="a" alignment="CENTER_RIGHT" blendMode="DARKEN" cache="true" layoutY="197.0" mnemonicParsing="false" onAction="#ElephantOnAction" prefHeight="50.0" prefWidth="196.0" stylesheets="@../new.css" text="About    ">
+            <Button id="a" alignment="CENTER_RIGHT" blendMode="DARKEN" cache="true" layoutX="1.0" layoutY="258.0" mnemonicParsing="false" onAction="#AboutOnAction" prefHeight="50.0" prefWidth="196.0" stylesheets="@../new.css" text="About    ">
                <font>
                   <Font name="System Bold" size="23.0" />
                </font>
@@ -152,6 +152,21 @@
                   <Font name="System Bold" size="23.0" />
                </font>
             </Button>
+            <Button id="a" alignment="CENTER_RIGHT" blendMode="DARKEN" cache="true" layoutX="1.0" layoutY="197.0" mnemonicParsing="false" onAction="#QuizOnAction" prefHeight="50.0" prefWidth="196.0" stylesheets="@../new.css" text="Quiz      ">
+               <font>
+                  <Font name="System Bold" size="23.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="39.0" fitWidth="34.0" layoutX="33.0" layoutY="266.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Assests/information.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="34.0" fitWidth="34.0" layoutX="33.0" layoutY="206.0">
+               <image>
+                  <Image url="@../Assests/ideas.png" />
+               </image>
+            </ImageView>
          </children>
       </Group>
       <ImageView fitHeight="39.0" fitWidth="34.0" layoutX="28.0" layoutY="99.0" pickOnBounds="true" preserveRatio="true">
@@ -169,11 +184,7 @@
             <Image url="@../Assests/forest.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="39.0" fitWidth="34.0" layoutX="28.0" layoutY="298.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../Assests/information.png" />
-         </image>
-      </ImageView>
+
       <ImageView fitHeight="39.0" fitWidth="34.0" layoutX="28.0" layoutY="931.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../Assests/exit.png" />
