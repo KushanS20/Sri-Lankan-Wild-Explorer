@@ -44,4 +44,16 @@ public class Forestcontroller {
     public void ForestOnAction(ActionEvent actionEvent) throws IOException {
         setUi("Forest/Forest");
     }
+
+    public void Wilpattunaction(ActionEvent actionEvent) throws IOException {
+        setUi("");
+    }
+
+    public void SinaharajaOnaction(ActionEvent actionEvent) throws IOException{
+        setUi("");
+    }
+
+    public void Yalaonaction(ActionEvent actionEvent) throws IOException{
+        setUi("");
+    }
 }
