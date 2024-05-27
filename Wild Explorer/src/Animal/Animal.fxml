@@ -65,7 +65,7 @@
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00000099" height="80.0" layoutX="611.0" layoutY="395.0" opacity="0.77" stroke="WHITE" strokeType="OUTSIDE" strokeWidth="5.0" width="338.0" />
       <ImageView fitHeight="219.0" fitWidth="340.0" layoutX="1014.0" layoutY="173.0">
          <image>
-            <Image url="@../Assests/Leonardo_Diffusion_XL_sri_lankan_stag_1.jpg" />
+            <Image url="@../Assests/pexels-evonics-2564889.jpg" />
          </image>
       </ImageView>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00000099" height="218.0" layoutX="1016.0" layoutY="172.0" opacity="0.77" stroke="WHITE" strokeType="OUTSIDE" strokeWidth="5.0" width="338.0" />
@@ -98,7 +98,7 @@
                   <Font name="Curlz MT" size="60.0" />
                </font>
             </Button>
-            <Button fx:id="a2button" blendMode="LIGHTEN" layoutX="396.0" layoutY="1.0" mnemonicParsing="false" onAction="#LeopardOnAction" prefHeight="130.0" prefWidth="350.0" style="-fx-background-color: Black;" text="Leopard" textFill="WHITE">
+            <Button fx:id="a2button" blendMode="LIGHTEN" layoutX="396.0" layoutY="1.0" mnemonicParsing="false" onAction="#LeopardOnAction" prefHeight="130.0" prefWidth="350.0" style="-fx-background-color: Black;" text="Tiger" textFill="WHITE">
                <font>
                   <Font name="Curlz MT" size="60.0" />
                </font>
@@ -113,7 +113,7 @@
                   <Font name="Curlz MT" size="60.0" />
                </font>
             </Button>
-            <Button blendMode="LIGHTEN" layoutX="807.0" mnemonicParsing="false" onAction="#StagOnAction" prefHeight="130.0" prefWidth="350.0" style="-fx-background-color: Black;" text="Stag" textFill="WHITE">
+            <Button blendMode="LIGHTEN" layoutX="807.0" mnemonicParsing="false" onAction="#StagOnAction" prefHeight="130.0" prefWidth="350.0" style="-fx-background-color: Black;" text="Lion" textFill="WHITE">
                <font>
                   <Font name="Curlz MT" size="60.0" />
                </font>

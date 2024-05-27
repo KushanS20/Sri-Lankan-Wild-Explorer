@@ -1,9 +1,12 @@
 package bear;
 
 import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
+import javafx.scene.control.Button;
 import javafx.scene.layout.AnchorPane;
+import javafx.scene.media.AudioClip;
 import javafx.stage.Stage;
 
 import java.io.IOException;
@@ -23,5 +26,12 @@ public class bear1controller {
 
     public void bearsecondOnAction(ActionEvent actionEvent)throws IOException {
         setUi("bear/bearSecond");
+    }
+    @FXML
+    private Button playButton;
+    @FXML
+    private void playonAction(ActionEvent event) {
+        AudioClip buzzer = new AudioClip(getClass().getResource("/Assests/bear.wav").toExternalForm());
+        buzzer.play();
     }
 }

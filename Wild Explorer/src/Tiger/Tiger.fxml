@@ -201,7 +201,7 @@
                     </LinearGradient>
                 </fill>
             </Text>
-            <Pane fx:id="firstCard" layoutX="324.0" layoutY="225.0"  prefHeight="317.0" prefWidth="263.0" style="-fx-background-color: #03c04A;">
+            <Pane fx:id="firstCard" layoutX="324.0" layoutY="225.0" prefHeight="317.0" prefWidth="263.0" style="-fx-background-color: #03c04A;">
                 <children>
                     <Pane prefHeight="82.0" prefWidth="263.0" style="-fx-background-color: #3DED97;">
                         <children>
@@ -217,7 +217,7 @@
                             <Font name="Arial Black" size="13.0" />
                         </font>
                     </Text>
-                    <Text fx:id="heroText121111" layoutX="11.0" layoutY="163.0"  strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded;" wrappingWidth="262.9999999999998">
+                    <Text fx:id="heroText121111" layoutX="11.0" layoutY="163.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded;" wrappingWidth="262.9999999999998">
                         <font>
                             <Font name="Arial Black" size="13.0" />
                         </font>
@@ -292,6 +292,7 @@
                     <Font name="System Bold" size="18.0" />
                 </font>
             </Button>
+            <Button fx:id="playButton" blendMode="MULTIPLY" layoutX="74.0" layoutY="345.0" mnemonicParsing="false" onAction="#playonAction" prefHeight="106.0" prefWidth="126.0" />
         </children></Pane>
     <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
     <Pane layoutX="9.0" prefHeight="200.0" prefWidth="200.0" />

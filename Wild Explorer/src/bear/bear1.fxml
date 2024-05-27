@@ -47,7 +47,7 @@
         <children>
             <ImageView fitHeight="331.0" fitWidth="605.0" pickOnBounds="true">
                 <image>
-                    <Image url="@../Assests/bear-cover-background.jpg" />
+                    <Image url="@../Assests/Default_sri_lankan_wild_group_of_bears_background_images_for_w_0.jpg" />
                 </image>
             </ImageView>
             <ImageView fitHeight="333.0" fitWidth="953.0" layoutX="463.0" layoutY="-1.0" pickOnBounds="true">
@@ -292,7 +292,7 @@
             <font>
                <Font name="System Bold" size="18.0" />
             </font></Button>
-            <ImageView fitHeight="111.0" fitWidth="109.0" layoutX="92.0" layoutY="349.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="111.0" fitWidth="109.0" layoutX="92.0" layoutY="330.0" pickOnBounds="true" preserveRatio="true">
                 <image>
                     <Image url="@../Assests/kids-sound-resting.png" />
                 </image>
@@ -302,6 +302,7 @@
                     <Font name="System Bold" size="18.0" />
                 </font>
             </Button>
+            <Button fx:id="playButton" blendMode="MULTIPLY" layoutX="74.0" layoutY="328.0" mnemonicParsing="false" onAction="#playonAction" prefHeight="106.0" prefWidth="126.0" />
         </children></Pane>
     <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
     <Pane layoutX="9.0" prefHeight="200.0" prefWidth="200.0" />
