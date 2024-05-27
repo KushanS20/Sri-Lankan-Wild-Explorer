@@ -50,7 +50,7 @@ public class Forestcontroller {
     }
 
     public void SinaharajaOnaction(ActionEvent actionEvent) throws IOException{
-        setUi("");
+        setUi("Sinharaja/sinharaja");
     }
 
     public void Yalaonaction(ActionEvent actionEvent) throws IOException{

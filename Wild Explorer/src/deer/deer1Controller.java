@@ -1,9 +1,12 @@
 package deer;
 
 import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
+import javafx.scene.control.Button;
 import javafx.scene.layout.AnchorPane;
+import javafx.scene.media.AudioClip;
 import javafx.stage.Stage;
 
 import java.io.IOException;
@@ -22,5 +25,12 @@ public class deer1Controller {
 
     public void AnimalOnAction(ActionEvent actionEvent) throws IOException{
         setUi("Animal/Animal");
+    }
+    @FXML
+    private Button playButton;
+    @FXML
+    private void playonAction(ActionEvent event) {
+        AudioClip buzzer = new AudioClip(getClass().getResource("/Assests/deer.wav").toExternalForm());
+        buzzer.play();
     }
 }

@@ -2,11 +2,14 @@ package Tiger;
 
 import javafx.animation.RotateTransition;
 import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
+import javafx.scene.control.Button;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.Pane;
+import javafx.scene.media.AudioClip;
 import javafx.scene.transform.Rotate;
 import javafx.stage.Stage;
 import javafx.util.Duration;
@@ -51,5 +54,12 @@ public class TigerController {
 
     public void AnimalOnAction(ActionEvent actionEvent)throws IOException {
         setUi("Animal/Animal");
+    }
+    @FXML
+    private Button playButton;
+    @FXML
+    private void playonAction(ActionEvent event) {
+        AudioClip buzzer = new AudioClip(getClass().getResource("/Assests/tiger.mp3").toExternalForm());
+        buzzer.play();
     }
 }
