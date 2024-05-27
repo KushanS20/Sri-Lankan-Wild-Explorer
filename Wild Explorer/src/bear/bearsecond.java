@@ -1,4 +1,4 @@
-package porcupine;
+package bear;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXMLLoader;
@@ -8,17 +8,20 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
-public class PorcupineController {
-    public void AnimalOnAction(ActionEvent actionEvent) throws IOException {
-        setUi("Animal/Animal");
-    }
-
-    public AnchorPane context;
+public class bearsecond {
+    public AnchorPane bearSecbg;
     private void setUi(String location)throws IOException {
-        Stage stage = (Stage) context.getScene().getWindow();
+        Stage stage = (Stage) bearSecbg.getScene().getWindow();
         stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("../"+location+".fxml"))));
         stage.centerOnScreen();
 
 
+    }
+    public void previousOnAction(ActionEvent actionEvent)throws IOException {
+        setUi("bear/bear1");
+    }
+
+    public void Animalonaction(ActionEvent actionEvent)throws IOException {
+        setUi("Animal/Animal");
     }
 }
