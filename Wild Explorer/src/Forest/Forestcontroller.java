@@ -46,7 +46,7 @@ public class Forestcontroller {
     }
 
     public void Wilpattunaction(ActionEvent actionEvent) throws IOException {
-        setUi("");
+        setUi("Wilpaththu/wilpaththu");
     }
 
     public void SinaharajaOnaction(ActionEvent actionEvent) throws IOException{
@@ -54,6 +54,6 @@ public class Forestcontroller {
     }
 
     public void Yalaonaction(ActionEvent actionEvent) throws IOException{
-        setUi("");
+        setUi("Yala/yala");
     }
 }
