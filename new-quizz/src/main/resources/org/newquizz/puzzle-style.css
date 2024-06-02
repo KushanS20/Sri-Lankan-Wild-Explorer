@@ -1,0 +1,11 @@
+.body{
+    -fx-background-color: grey;
+}
+.deer{
+    -fx-background-image: url("/images/deer.jpg");
+    -fx-background-size: cover;
+
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+
+}
