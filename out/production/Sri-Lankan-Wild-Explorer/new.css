@@ -1,0 +1,10 @@
+#a:hover{
+    -fx-background-color: #7f6e6e;
+    -fx-font-size: 23;
+}
+#a {
+    -fx-font-size: 23;
+    -fx-background-color: white;
+    -fx-font-family: "Open Sans";
+    -fx-font-weight: bold;
+}
