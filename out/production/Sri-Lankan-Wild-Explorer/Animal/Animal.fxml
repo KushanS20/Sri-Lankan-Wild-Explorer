@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="context" prefHeight="962.0" prefWidth="1357.0" stylesheets="../new.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Animal.Animalcontroller">
+   <children>
+      <ImageView fitHeight="977.0" fitWidth="1465.0" layoutX="-62.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Assests/PhotoReal_wild_explorer_learning_platform_0.jpg" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" blendMode="SOFT_LIGHT" fill="WHITE" height="941.0" layoutX="-7.0" layoutY="46.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="54.0" layoutX="-3.0" layoutY="1.0" stroke="BLACK" strokeType="INSIDE" width="1406.0">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="#615c2b" />
+                  <Stop color="#615c2b" offset="0.007662835249042145" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <Text layoutX="28.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SRI LANKAN" wrappingWidth="141.0761260986328">
+         <font>
+            <Font size="21.0" />
+         </font>
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0" startY="1.0">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="#cace00" offset="0.007662835249042145" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Text>
+      <Text fill="WHITE" layoutX="157.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="WILD EXPLORER" wrappingWidth="593.4094848632812">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="219.0" fitWidth="340.0" layoutX="216.0" layoutY="173.0">
+         <image>
+            <Image url="@../Assests/Leonardo_Diffusion_XL_sri_lankan_wild_elephant_2.jpg" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00000099" height="218.0" layoutX="216.0" layoutY="172.0" opacity="0.77" stroke="WHITE" strokeType="OUTSIDE" strokeWidth="5.0" width="338.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00000099" height="80.0" layoutX="217.0" layoutY="395.0" opacity="0.77" stroke="WHITE" strokeType="OUTSIDE" strokeWidth="5.0" width="338.0" />
+      <ImageView fitHeight="219.0" fitWidth="340.0" layoutX="608.0" layoutY="171.0">
+         <image>
+            <Image url="@../Assests/Leonardo_Diffusion_XL_sri_lankan_leopard_1.jpg" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00000099" height="218.0" layoutX="610.0" layoutY="172.0" opacity="0.77" stroke="WHITE" strokeType="OUTSIDE" strokeWidth="5.0" width="340.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00000099" height="80.0" layoutX="611.0" layoutY="395.0" opacity="0.77" stroke="WHITE" strokeType="OUTSIDE" strokeWidth="5.0" width="338.0" />
+      <ImageView fitHeight="219.0" fitWidth="340.0" layoutX="1014.0" layoutY="173.0">
+         <image>
+            <Image url="@../Assests/Leonardo_Diffusion_XL_sri_lankan_stag_1.jpg" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00000099" height="218.0" layoutX="1016.0" layoutY="172.0" opacity="0.77" stroke="WHITE" strokeType="OUTSIDE" strokeWidth="5.0" width="338.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00000099" height="80.0" layoutX="1017.0" layoutY="395.0" opacity="0.77" stroke="WHITE" strokeType="OUTSIDE" strokeWidth="5.0" width="338.0" />
+      <ImageView fitHeight="219.0" fitWidth="340.0" layoutX="215.0" layoutY="544.0">
+         <image>
+            <Image url="@../Assests/Default_sri_lankan_wild_bear_1.jpg" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00000099" height="218.0" layoutX="217.0" layoutY="544.0" opacity="0.77" stroke="WHITE" strokeType="OUTSIDE" strokeWidth="5.0" width="338.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00000099" height="80.0" layoutX="218.0" layoutY="767.0" opacity="0.77" stroke="WHITE" strokeType="OUTSIDE" strokeWidth="5.0" width="338.0" />
+      <ImageView fitHeight="219.0" fitWidth="340.0" layoutX="613.0" layoutY="544.0">
+         <image>
+            <Image url="@../Assests/Default_sri_lankan_pack_of_wild_deer_1.jpg" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00000099" height="218.0" layoutX="613.0" layoutY="544.0" opacity="0.77" stroke="WHITE" strokeType="OUTSIDE" strokeWidth="5.0" width="338.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00000099" height="80.0" layoutX="614.0" layoutY="767.0" opacity="0.77" stroke="WHITE" strokeType="OUTSIDE" strokeWidth="5.0" width="338.0" />
+      <ImageView fitHeight="219.0" fitWidth="340.0" layoutX="1015.0" layoutY="544.0">
+         <image>
+            <Image url="@../Assests/Default_sri_lankan_wild_porcupine_1.jpg" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00000099" height="218.0" layoutX="1016.0" layoutY="544.0" opacity="0.77" stroke="WHITE" strokeType="OUTSIDE" strokeWidth="5.0" width="338.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00000099" height="80.0" layoutX="1017.0" layoutY="767.0" opacity="0.77" stroke="WHITE" strokeType="OUTSIDE" strokeWidth="5.0" width="338.0" />
+      <Group layoutX="207.0" layoutY="358.0">
+         <children>
+            <Button blendMode="LIGHTEN" layoutY="1.0" mnemonicParsing="false" onAction="#ElephantOnAction" prefHeight="130.0" prefWidth="350.0" style="-fx-background-color: black;" text="Elephant" textFill="WHITE">
+               <font>
+                  <Font name="Curlz MT" size="60.0" />
+               </font>
+            </Button>
+            <Button fx:id="a2button" blendMode="LIGHTEN" layoutX="396.0" layoutY="1.0" mnemonicParsing="false" onAction="#LeopardOnAction" prefHeight="130.0" prefWidth="350.0" style="-fx-background-color: Black;" text="Leopard" textFill="WHITE">
+               <font>
+                  <Font name="Curlz MT" size="60.0" />
+               </font>
+            </Button>
+            <Button blendMode="LIGHTEN" layoutX="399.0" layoutY="374.0" mnemonicParsing="false" onAction="#DeerOnAction" prefHeight="130.0" prefWidth="350.0" style="-fx-background-color: Black;" text="Deer" textFill="WHITE">
+               <font>
+                  <Font name="Curlz MT" size="60.0" />
+               </font>
+            </Button>
+            <Button blendMode="LIGHTEN" layoutX="3.0" layoutY="374.0" mnemonicParsing="false" onAction="#BearOnAction" prefHeight="130.0" prefWidth="350.0" style="-fx-background-color: Black;" text="Bear" textFill="WHITE">
+               <font>
+                  <Font name="Curlz MT" size="60.0" />
+               </font>
+            </Button>
+            <Button blendMode="LIGHTEN" layoutX="807.0" mnemonicParsing="false" onAction="#StagOnAction" prefHeight="130.0" prefWidth="350.0" style="-fx-background-color: Black;" text="Stag" textFill="WHITE">
+               <font>
+                  <Font name="Curlz MT" size="60.0" />
+               </font>
+            </Button>
+            <Button blendMode="LIGHTEN" layoutX="803.0" layoutY="374.0" mnemonicParsing="false" onAction="#PorcupineOnAction" prefHeight="130.0" prefWidth="350.0" style="-fx-background-color: Black;" text="Porcupine" textFill="WHITE">
+               <font>
+                  <Font name="Curlz MT" size="60.0" />
+               </font>
+            </Button>
+         </children>
+      </Group>
+      <Group layoutX="-6.0" layoutY="93.0">
+         <children>
+            <Button id="a" alignment="CENTER_RIGHT" blendMode="DARKEN" cache="true" layoutX="3.0" mnemonicParsing="false" onAction="#Homeonaction" prefHeight="50.0" prefWidth="196.0" stylesheets="@../new.css" text="Home     ">
+               <font>
+                  <Font name="System Bold" size="23.0" />
+               </font>
+            </Button>
+            <Button id="a" alignment="CENTER_RIGHT" blendMode="DARKEN" cache="true" layoutX="1.0" layoutY="64.0" mnemonicParsing="false" onAction="#ElephantOnAction" prefHeight="50.0" prefWidth="196.0" stylesheets="@../new.css" text="Animals ">
+               <font>
+                  <Font name="System Bold" size="23.0" />
+               </font>
+            </Button>
+            <Button id="a" alignment="CENTER_RIGHT" blendMode="DARKEN" cache="true" layoutX="2.0" layoutY="133.0" mnemonicParsing="false" onAction="#ElephantOnAction" prefHeight="50.0" prefWidth="196.0" stylesheets="@../new.css" text="Forests   ">
+               <font>
+                  <Font name="System Bold" size="23.0" />
+               </font>
+            </Button>
+            <Button id="a" alignment="CENTER_RIGHT" blendMode="DARKEN" cache="true" layoutY="197.0" mnemonicParsing="false" onAction="#ElephantOnAction" prefHeight="50.0" prefWidth="196.0" stylesheets="@../new.css" text="About    ">
+               <font>
+                  <Font name="System Bold" size="23.0" />
+               </font>
+            </Button>
+            <Button id="a" alignment="CENTER_RIGHT" blendMode="DARKEN" cache="true" layoutX="1.0" layoutY="830.0" mnemonicParsing="false" onAction="#LogoutOnAction" prefHeight="50.0" prefWidth="196.0" stylesheets="@../new.css" text="Log out ">
+               <font>
+                  <Font name="System Bold" size="23.0" />
+               </font>
+            </Button>
+         </children>
+      </Group>
+      <ImageView fitHeight="39.0" fitWidth="34.0" layoutX="28.0" layoutY="99.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Assests/home.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="39.0" fitWidth="34.0" layoutX="28.0" layoutY="165.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Assests/pawprint.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="39.0" fitWidth="34.0" layoutX="28.0" layoutY="234.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Assests/forest.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="39.0" fitWidth="34.0" layoutX="28.0" layoutY="298.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Assests/information.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="39.0" fitWidth="34.0" layoutX="28.0" layoutY="931.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Assests/exit.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="216.0" layoutY="135.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: Open Sans; -fx-font-size: 40;" text="Animals" wrappingWidth="232.07614681124687">
+         <font>
+            <Font name="System Bold" size="32.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
