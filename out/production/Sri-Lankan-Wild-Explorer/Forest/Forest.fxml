@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="context" prefHeight="962.0" prefWidth="1357.0" stylesheets="../new.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Forest.Forestcontroller">
+    <children>
+        <ImageView fitHeight="977.0" fitWidth="1465.0" layoutX="-60.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../Assests/PhotoReal_wild_explorer_learning_platform_0.jpg" />
+            </image>
+        </ImageView>
+        <Rectangle arcHeight="5.0" arcWidth="5.0" blendMode="SOFT_LIGHT" fill="WHITE" height="941.0" layoutX="-7.0" layoutY="46.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+        <Rectangle arcHeight="5.0" arcWidth="5.0" height="54.0" layoutX="-3.0" layoutY="1.0" stroke="BLACK" strokeType="INSIDE" width="1406.0">
+            <fill>
+                <LinearGradient endX="1.0" endY="1.0">
+                    <stops>
+                        <Stop color="#615c2b" />
+                        <Stop color="#615c2b" offset="0.007662835249042145" />
+                        <Stop color="WHITE" offset="1.0" />
+                    </stops>
+                </LinearGradient>
+            </fill>
+        </Rectangle>
+        <Text layoutX="28.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SRI LANKAN" wrappingWidth="141.0761260986328">
+            <font>
+                <Font size="21.0" />
+            </font>
+            <fill>
+                <LinearGradient endX="1.0" endY="1.0" startY="1.0">
+                    <stops>
+                        <Stop color="BLACK" />
+                        <Stop color="#cace00" offset="0.007662835249042145" />
+                        <Stop color="WHITE" offset="1.0" />
+                    </stops>
+                </LinearGradient>
+            </fill>
+        </Text>
+        <Text fill="WHITE" layoutX="157.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="WILD EXPLORER" wrappingWidth="593.4094848632812">
+            <font>
+                <Font size="29.0" />
+            </font>
+        </Text>
+        <Group layoutX="-6.0" layoutY="93.0">
+            <children>
+                <Button id="a" alignment="CENTER_RIGHT" blendMode="DARKEN" cache="true" layoutX="3.0" mnemonicParsing="false" onAction="#Homeonaction" prefHeight="50.0" prefWidth="196.0" stylesheets="@../new.css" text="Home     ">
+                    <font>
+                        <Font name="System Bold" size="23.0" />
+                    </font>
+                </Button>
+                <Button id="a" alignment="CENTER_RIGHT" blendMode="DARKEN" cache="true" layoutX="1.0" layoutY="64.0" mnemonicParsing="false" onAction="#AnimalsOnAction" prefHeight="50.0" prefWidth="196.0" stylesheets="@../new.css" text="Animals ">
+                    <font>
+                        <Font name="System Bold" size="23.0" />
+                    </font>
+                </Button>
+                <Button id="a" alignment="CENTER_RIGHT" blendMode="DARKEN" cache="true" layoutX="2.0" layoutY="132.0" mnemonicParsing="false" onAction="#ForestOnAction" prefHeight="50.0" prefWidth="196.0" stylesheets="@../new.css" text="Forests   ">
+                    <font>
+                        <Font name="System Bold" size="23.0" />
+                    </font>
+                </Button>
+                <Button id="a" alignment="CENTER_RIGHT" blendMode="DARKEN" cache="true" layoutX="1.0" layoutY="258.0" mnemonicParsing="false" onAction="#AboutOnAction" prefHeight="50.0" prefWidth="196.0" stylesheets="@../new.css" text="About    ">
+                    <font>
+                        <Font name="System Bold" size="23.0" />
+                    </font>
+                </Button>
+                <Button id="a" alignment="CENTER_RIGHT" blendMode="DARKEN" cache="true" layoutX="1.0" layoutY="830.0" mnemonicParsing="false" onAction="#LogoutOnAction" prefHeight="50.0" prefWidth="196.0" stylesheets="@../new.css" text="Log out ">
+                    <font>
+                        <Font name="System Bold" size="23.0" />
+                    </font>
+                </Button>
+                <Button id="a" alignment="CENTER_RIGHT" blendMode="DARKEN" cache="true" layoutX="1.0" layoutY="197.0" mnemonicParsing="false" onAction="#QuizOnAction" prefHeight="50.0" prefWidth="196.0" stylesheets="@../new.css" text="Quiz      ">
+                    <font>
+                        <Font name="System Bold" size="23.0" />
+                    </font>
+                </Button>
+                <ImageView fitHeight="39.0" fitWidth="34.0" layoutX="33.0" layoutY="266.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../Assests/information.png" />
+                    </image>
+                </ImageView>
+                <ImageView fitHeight="34.0" fitWidth="34.0" layoutX="33.0" layoutY="206.0">
+                    <image>
+                        <Image url="@../Assests/ideas.png" />
+                    </image>
+                </ImageView>
+            </children>
+        </Group>
+        <ImageView fitHeight="39.0" fitWidth="34.0" layoutX="28.0" layoutY="99.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../Assests/home.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="39.0" fitWidth="34.0" layoutX="28.0" layoutY="165.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../Assests/pawprint.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="39.0" fitWidth="34.0" layoutX="28.0" layoutY="234.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../Assests/forest.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="39.0" fitWidth="34.0" layoutX="28.0" layoutY="931.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../Assests/exit.png" />
+            </image>
+        </ImageView>
+      <ImageView fitHeight="219.0" fitWidth="393.0" layoutX="272.0" layoutY="128.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Assests/Yala.jpg" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffffff80" height="219.0" layoutX="597.0" layoutY="128.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="690.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00000066" height="219.0" layoutX="272.0" layoutY="128.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="327.0" />
+      <Text layoutX="652.0" layoutY="173.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Yala National Park is a big, exciting park in Sri Lanka where you can see lots of wild animals in their natural home. It's like a huge outdoor zoo with no cages! There are elephants, leopards, crocodiles, and many colorful birds. You can ride in a special jeep with a guide to see these animals up close. The park is also full of beautiful trees, flowers, and rivers, making it a wonderful adventure in nature." wrappingWidth="587.4700927734375">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="219.0" fitWidth="393.0" layoutX="902.0" layoutY="413.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Assests/WIlpaththu.jpg" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffffff80" height="219.0" layoutX="274.0" layoutY="413.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="630.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#0000001a" height="219.0" layoutX="902.0" layoutY="413.0" stroke="#00000080" strokeType="INSIDE" strokeWidth="3.0" width="389.0" />
+      <Text layoutX="310.0" layoutY="450.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Wilpattu National Park is a large and beautiful park in Sri Lanka where you can see many wild animals living in their natural environment. It is famous for its many lakes, which are called &quot;villus.&quot; These lakes attract animals like elephants, leopards, and deer who come to drink water. You can take a special jeep ride through the park to see these animals and enjoy the peaceful, green surroundings. It's a fun place for a nature adventure!" wrappingWidth="556.4700927734375">
+         <font>
+            <Font size="18.5" />
+         </font>
+      </Text>
+      <ImageView fitHeight="219.0" fitWidth="393.0" layoutX="272.0" layoutY="703.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Assests/Sinharaja.jpg" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffffff80" height="227.0" layoutX="597.0" layoutY="703.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="690.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#0000001a" height="219.0" layoutX="272.0" layoutY="703.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="327.0" />
+      <Text layoutX="643.0" layoutY="739.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sinharaja Rainforest is a magical place in Sri Lanka filled with tall trees, vibrant plants, and lots of different animals. It's like stepping into a real-life jungle book! This rainforest is very special because it has many plants and animals that can't be found anywhere else in the world. You can walk on trails through the forest, see colorful birds, butterflies, and maybe even spot some monkeys swinging in the trees. It's a wonderful place to explore nature and discover the beauty of the jungle!" wrappingWidth="587.4700927734375">
+         <font>
+            <Font size="18.5" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="358.0" layoutY="257.0" strokeType="OUTSIDE" strokeWidth="0.0" text="YALA">
+         <font>
+            <Font name="Cambria" size="64.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="955.0" layoutY="545.0" strokeType="OUTSIDE" strokeWidth="0.0" text="WILPATTU">
+         <font>
+            <Font name="Cambria" size="64.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="282.0" layoutY="834.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SINHARAJA">
+         <font>
+            <Font name="Cambria" size="60.0" />
+         </font>
+      </Text>
+      <Button id="b" alignment="CENTER" blendMode="DARKEN" cache="true" contentDisplay="CENTER" graphicTextGap="0.0" layoutX="1138.0" layoutY="295.0" mnemonicParsing="false" onAction="#Yalaonaction" prefHeight="25.0" prefWidth="140.0" stylesheets="@../new.css" text="Learn More" textFill="#19526f">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Button>
+      <Button id="b" alignment="CENTER" blendMode="DARKEN" cache="true" contentDisplay="CENTER" graphicTextGap="0.0" layoutX="750.0" layoutY="580.0" mnemonicParsing="false" onAction="#Wilpattunaction" prefHeight="25.0" prefWidth="140.0" stylesheets="@../new.css" text="Learn More" textFill="#19526f">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Button>
+      <Button id="b" alignment="CENTER" blendMode="DARKEN" cache="true" contentDisplay="CENTER" graphicTextGap="0.0" layoutX="1139.0" layoutY="879.0" mnemonicParsing="false" onAction="#SinaharajaOnaction" prefHeight="25.0" prefWidth="140.0" stylesheets="@../new.css" text="Learn More" textFill="#19526f">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>
