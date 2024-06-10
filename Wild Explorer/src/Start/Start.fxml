@@ -13,7 +13,7 @@
    <children>
       <ImageView fitHeight="1001.0" fitWidth="1412.0" layoutX="2.0" layoutY="3.0" pickOnBounds="true">
          <image>
-            <Image url="@../Assests/PhotoReal_wild_life_learning_platform_opening_page_2%20(1)_cleanup.jpg" />
+            <Image url="@../Assests/PhotoReal_wild_life_learning_platform_opening_page_2 (1)_cleanup.jpg" />
          </image>
       </ImageView>
       <Button layoutX="559.0" layoutY="870.0" mnemonicParsing="false" onAction="#ClickMeOnAction" prefHeight="53.0" prefWidth="307.0" style="-fx-background-color: rgba(25, 74, 80, 1); -fx-background-radius: 10; -fx-font-family: Open Sans; -fx-font-size: 22;" text="Get Started" textFill="WHITE">

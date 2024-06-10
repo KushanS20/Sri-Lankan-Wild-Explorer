@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="deerSecbg" prefHeight="962.0" prefWidth="1357.0" stylesheets="@../Assests/style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="deer.deersecond">
+    <Rectangle arcHeight="5.0" arcWidth="5.0" height="63.0" layoutY="-6.0" stroke="BLACK" strokeType="INSIDE" width="1413.0">
+        <fill>
+            <LinearGradient>
+                <stops>
+                    <Stop color="#615c2b" />
+                    <Stop color="#615c2b" offset="0.007662835249042145" />
+                    <Stop color="WHITE" offset="1.0" />
+                </stops>
+            </LinearGradient>
+        </fill>
+    </Rectangle>
+    <Text layoutX="38.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SRI LANKAN" wrappingWidth="141.0761260986328">
+        <font>
+            <Font size="21.0" />
+        </font>
+        <fill>
+            <LinearGradient endY="1.0" startY="1.0">
+                <stops>
+                    <Stop color="BLACK" />
+                    <Stop color="#cace00" offset="0.007662835249042145" />
+                    <Stop color="WHITE" offset="1.0" />
+                </stops>
+            </LinearGradient>
+        </fill>
+    </Text>
+    <Text fill="WHITE" layoutX="167.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="WILD EXPLORER" wrappingWidth="593.4094848632812">
+        <font>
+            <Font size="29.0" />
+        </font>
+    </Text>
+    <Pane layoutX="9.0" layoutY="57.0" opacity="0.75" prefHeight="906.0" prefWidth="855.0" style="-fx-background-color: black;">
+        <children>
+            <Text fill="WHITE" layoutX="22.0" layoutY="45.0" strokeType="OUTSIDE" strokeWidth="0.0" text="       Facts for Kids" wrappingWidth="593.4094848632812">
+                <font>
+                    <Font size="29.0" />
+                </font>
+            </Text>
+            <Separator layoutX="69.0" layoutY="64.0" prefHeight="0.0" prefWidth="540.0" />
+            <Text fill="WHITE" layoutX="68.0" layoutY="87.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&gt;Male deer (bucks) grow antlers, which they shed and regrow each year" wrappingWidth="733.4095153808594">
+                <font>
+                    <Font name="System Italic" size="13.0" />
+                </font>
+            </Text>
+            <Text fill="WHITE" layoutX="69.0" layoutY="117.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&gt; Deer are herbivores, which means they eat plants. They enjoy munching on grass, leaves, twigs, fruits, and berries." wrappingWidth="711.8095092773438">
+                <font>
+                    <Font name="System Italic" size="13.0" />
+                </font>
+            </Text>
+            <Text fill="WHITE" layoutX="69.0" layoutY="145.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&gt; Deer are excellent jumpers and can easily leap over tall obstacles like fences or fallen trees." wrappingWidth="711.8095092773438">
+                <font>
+                    <Font name="System Italic" size="13.0" />
+                </font>
+            </Text>
+            <Text fill="WHITE" layoutX="58.0" layoutY="259.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Photo Gallery" wrappingWidth="471.80950927734375">
+                <font>
+                    <Font size="29.0" />
+                </font>
+            </Text>
+            <ImageView fx:id="imgView" fitHeight="336.0" fitWidth="540.0" layoutX="32.0" layoutY="285.0" pickOnBounds="true">
+                <image>
+                    <Image url="@../Assests/Leonardo_Diffusion_XL_sri_lankan_stag_1.jpg" />
+                </image>
+            </ImageView>
+            <Button fx:id="prevBtn" layoutX="169.0" layoutY="647.0" mnemonicParsing="false"  text="Previous" />
+            <Button fx:id="nextBtn" layoutX="258.0" layoutY="647.0" mnemonicParsing="false"  prefHeight="25.0" prefWidth="61.0" text="Next" />
+            <Text fill="WHITE" layoutX="69.0" layoutY="174.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&gt; Deer have been important to humans for thousands of years. They are often featured in folklore, art, and stories from different cultures around the world" wrappingWidth="711.8095092773438">
+                <font>
+                    <Font name="System Italic" size="13.0" />
+                </font>
+            </Text>
+            <Separator layoutX="58.0" layoutY="204.0" prefHeight="3.0" prefWidth="527.0" />
+        </children>
+    </Pane>
+    <Button blendMode="LIGHTEN" layoutX="89.0" layoutY="860.0" mnemonicParsing="false" onAction="#previousOnAction" prefHeight="38.0" prefWidth="106.0" style="-fx-background-color: white;" text="Previous">
+        <font>
+            <Font name="System Bold" size="18.0" />
+        </font>
+    </Button>
+    <Button fx:id="f1button" blendMode="LIGHTEN" layoutX="1266.0" layoutY="860.0" mnemonicParsing="false" onAction="#Animalonaction" prefHeight="38.0" prefWidth="106.0" style="-fx-background-color: white;" text="Finish">
+        <font>
+            <Font name="System Bold" size="18.0" />
+        </font>
+    </Button>
+</AnchorPane>
