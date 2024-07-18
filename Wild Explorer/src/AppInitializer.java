@@ -1,5 +1,5 @@
-import
-        javafx.application.Application;
+import Signup.DatabaseConnection;
+import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
@@ -9,8 +9,10 @@ import java.net.URL;
 
 public class AppInitializer extends Application {
     public static void main(String[] args) {
-
+        DatabaseConnection instance = DatabaseConnection.getInstance();
+        instance.getConnection();
         launch(args);
+
     }
 
     @Override
@@ -22,5 +24,6 @@ public class AppInitializer extends Application {
         primaryStage.show();
         primaryStage.centerOnScreen();
         primaryStage.setTitle("Wild Explorer");
+
      }
 }

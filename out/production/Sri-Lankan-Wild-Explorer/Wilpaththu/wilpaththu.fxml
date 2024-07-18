@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="context" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="962.0" prefWidth="1357.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Wilpaththu.wilpaththucontroller">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="54.0" stroke="BLACK" strokeType="INSIDE" width="1357.0">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="#615c2b" />
+                  <Stop color="#615c2b" offset="0.007662835249042145" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <Text layoutX="28.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SRI LANKAN" wrappingWidth="141.0761260986328">
+         <font>
+            <Font size="21.0" />
+         </font>
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0" startY="1.0">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="#cace00" offset="0.007662835249042145" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Text>
+      <Text fill="WHITE" layoutX="157.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="WILD EXPLORER" wrappingWidth="593.4094848632812">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="305.0" fitWidth="1357.0" layoutY="54.0" pickOnBounds="true">
+         <image>
+            <Image url="@../Assests/wilpaththu/wilpaththu-background.png" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="252.0" layoutY="247.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="2.0" text="Wilpaththu Forest" textAlignment="JUSTIFY" wrappingWidth="852.13671875">
+         <font>
+            <Font name="System Bold" size="100.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="291.0" fitWidth="375.0" layoutX="-1.0" layoutY="359.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Assests/wilpaththu/deer.png" />
+         </image>
+      </ImageView>
+      <Pane layoutX="374.0" layoutY="359.0" prefHeight="238.0" prefWidth="529.0" style="-fx-background-color: #FFFFFF;">
+         <children>
+            <Text layoutX="76.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&quot;Reconnect with your wild spirit in nature&quot;" wrappingWidth="416.13671875">
+               <font>
+                  <Font name="System Bold Italic" size="48.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <Pane layoutX="903.0" layoutY="359.0" prefHeight="328.0" prefWidth="454.0" style="-fx-background-color: #FFFFFF;">
+         <children>
+            <Text layoutX="40.0" layoutY="78.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The diverse landscape of Wilpattu, including dense scrub jungles, lakes, and open grassy plains, sets it apart from forests with more homogeneous terrain, providing a range of habitats for diverse wildlife" textAlignment="JUSTIFY" wrappingWidth="375.0">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <Pane layoutX="1.0" layoutY="650.0" prefHeight="312.0" prefWidth="216.0" style="-fx-background-color: #FFFFFF;">
+         <children>
+            <Text layoutX="20.0" layoutY="79.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The presence of ancient ruins within the park adds a distinctive historical and cultural dimension not commonly found in other forest reserves." textAlignment="JUSTIFY" wrappingWidth="176.13671875">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <ImageView fitHeight="312.0" fitWidth="156.0" layoutX="218.0" layoutY="650.0" pickOnBounds="true">
+         <image>
+            <Image url="@../Assests/wilpaththu/image2.jpg" />
+         </image>
+      </ImageView>
+      <Pane layoutX="374.0" layoutY="597.0" prefHeight="365.0" prefWidth="240.0" style="-fx-background-color: #FFFFFF;">
+         <children>
+            <Text layoutX="23.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Wilpattu tends to be less crowded compared to other popular national parks in Sri Lanka, providing a more tranquil and immersive wildlife experience away from the crowds." textAlignment="JUSTIFY" wrappingWidth="195.13671874999994">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <ImageView fitHeight="365.0" fitWidth="288.0" layoutX="614.0" layoutY="598.0" pickOnBounds="true">
+         <image>
+            <Image url="@../Assests/wilpaththu/waterbuffelo.png" />
+         </image>
+      </ImageView>
+      <Pane layoutX="903.0" layoutY="688.0" prefHeight="275.0" prefWidth="454.0" style="-fx-background-color: #FFFFFF;">
+         <children>
+            <Text layoutX="56.0" layoutY="88.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Wilpattu is renowned for its significant population of leopards, offering visitors a higher chance of spotting these elusive big cats compared to many other forests." textAlignment="JUSTIFY" wrappingWidth="342.13671875">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Text>
+
+         </children>
+      </Pane>
+      <Button alignment="CENTER" blendMode="LIGHTEN" contentDisplay="CENTER" graphicTextGap="0.0" layoutX="1249.0" layoutY="75.0" mnemonicParsing="false" onAction="#HomeOnAction" prefHeight="30.0" prefWidth="90.0" style="-fx-background-color: white;" text="Home">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button alignment="CENTER" blendMode="LIGHTEN" contentDisplay="CENTER" graphicTextGap="0.0" layoutX="24.0" layoutY="74.0" mnemonicParsing="false" onAction="#ForestOnAction" prefHeight="30.0" prefWidth="90.0" style="-fx-background-color: white;" text="Forest">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

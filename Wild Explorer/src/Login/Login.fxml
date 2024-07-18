@@ -22,8 +22,8 @@
             <Font name="System Italic" size="33.0" />
          </font>
       </Text>
-      <PasswordField layoutX="606.0" layoutY="406.0" prefHeight="37.0" prefWidth="243.0" promptText="Password" style="-fx-background-radius: 5;" />
-      <TextField layoutX="606.0" layoutY="337.0" prefHeight="37.0" prefWidth="243.0" promptText="Email" style="-fx-background-radius: 5;" />
+      <PasswordField fx:id="pwd" layoutX="606.0" layoutY="406.0" prefHeight="37.0" prefWidth="243.0" promptText="Password" style="-fx-background-radius: 5;" />
+      <TextField fx:id="emailfd" layoutX="606.0" layoutY="337.0" prefHeight="37.0" prefWidth="243.0" promptText="Email" style="-fx-background-radius: 5;" />
       <Button id="text" layoutX="606.0" layoutY="483.0" mnemonicParsing="false" onAction="#ClickMeOnAction" prefHeight="44.0" prefWidth="243.0" style="-fx-background-color: rgba(25, 74, 80, 1); -fx-background-radius: 10;" text="Login" textFill="WHITE">
          <font>
             <Font size="20.0" />
