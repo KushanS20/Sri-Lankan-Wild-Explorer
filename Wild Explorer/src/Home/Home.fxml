@@ -5,20 +5,21 @@
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.media.MediaView?>
 <?import javafx.scene.paint.LinearGradient?>
 <?import javafx.scene.paint.Stop?>
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane fx:id="context" prefHeight="962.0" prefWidth="1357.0" stylesheets="../new.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Home.Homecontroller">
+<AnchorPane fx:id="context" prefHeight="991.0" prefWidth="1396.0" stylesheets="../new.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Home.Homecontroller">
    <children>
       <ImageView fitHeight="977.0" fitWidth="1465.0" layoutX="-62.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../Assests/PhotoReal_wild_explorer_learning_platform_0.jpg" />
          </image>
       </ImageView>
-      <Rectangle arcHeight="5.0" arcWidth="5.0" blendMode="SOFT_LIGHT" fill="WHITE" height="941.0" layoutX="-7.0" layoutY="46.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" blendMode="SOFT_LIGHT" fill="WHITE" height="945.0" layoutX="-7.0" layoutY="46.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" height="54.0" layoutX="-3.0" layoutY="1.0" stroke="BLACK" strokeType="INSIDE" width="1406.0">
          <fill>
             <LinearGradient endX="1.0" endY="1.0">
@@ -113,5 +114,77 @@
             <Image url="@../Assests/exit.png" />
          </image>
       </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffffff80" height="234.0" layoutX="207.0" layoutY="233.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="693.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#a8a2a280" height="50.0" layoutX="207.0" layoutY="232.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="693.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffffff80" height="234.0" layoutX="803.0" layoutY="552.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="564.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#a8a2a280" height="50.0" layoutX="803.0" layoutY="551.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="564.0" />
+      <Text layoutX="303.0" layoutY="152.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome to Sri Lankan Wild Explorer!" textAlignment="CENTER" wrappingWidth="1017.0">
+         <font>
+            <Font size="46.0" />
+         </font>
+      </Text>
+      <Text layoutX="344.0" layoutY="189.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Embark on an exciting journey through the diverse wildlife and lush forests of Sri Lanka!" textAlignment="CENTER" wrappingWidth="935.0">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="220.0" layoutY="266.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Discover the Wonders of Sri Lanka's Nature" wrappingWidth="676.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="220.0" layoutY="318.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Learn about amazing animals like elephants, leopards, and colorful birds" wrappingWidth="800.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="220.0" layoutY="358.0" stroke="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Explore the secrets of ancient forests and national parks" wrappingWidth="800.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="220.0" layoutY="398.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Test your knowledge with fun quizzes about Sri Lankan wildlife" wrappingWidth="800.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="220.0" layoutY="438.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Are you ready for an adventure? Choose an option from the menu to start exploring!" wrappingWidth="800.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="821.0" layoutY="585.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Quick Facts:" wrappingWidth="546.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="821.0" layoutY="648.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sri Lanka is home to over 120 species of mammals" wrappingWidth="546.0000181570649">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="821.0" layoutY="688.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The island has 26 national parks protecting its diverse ecosystems" wrappingWidth="546.0000399872661">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="821.0" layoutY="728.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sri Lankan elephants are the largest of Asian elephant subspecies" wrappingWidth="546.0000181570649">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="220.0" layoutY="898.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Start your wild journey today and become a true Sri Lankan nature expert!" wrappingWidth="1053.0">
+         <font>
+            <Font name="System Bold Italic" size="30.0" />
+         </font>
+      </Text>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#a8a2a280" height="251.0" layoutX="914.0" layoutY="230.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="2.0" width="451.0" />
+      <MediaView fx:id="mediaView" fitHeight="250.0" fitWidth="450.0" layoutX="914.0" layoutY="230.0" />
+      <Button blendMode="LIGHTEN" layoutX="1018.0" layoutY="504.0" onAction="#handlePlay" text="Play" />
+      <Button blendMode="LIGHTEN" layoutX="1179.0" layoutY="504.0" onAction="#handlePause" text="Pause" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#a8a2a280" height="251.0" layoutX="233.0" layoutY="486.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="2.0" width="501.0" />
+      <MediaView fx:id="mediaView1" fitHeight="250.0" fitWidth="500.0" layoutX="234.0" layoutY="486.0" />
+      <Button blendMode="LIGHTEN" layoutX="377.0" layoutY="761.0" onAction="#handlePlay" text="Play" />
+      <Button blendMode="LIGHTEN" layoutX="538.0" layoutY="761.0" onAction="#handlePause" text="Pause" />
    </children>
 </AnchorPane>
