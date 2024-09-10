@@ -55,7 +55,7 @@
                <Image url="@../Assests/bg3.png" />
             </image>
          </ImageView>
-         <Text fx:id="heroText" layoutX="207.0" layoutY="130.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded;" text="Asian Elephant" wrappingWidth="141.0761260986328">
+         <Text fx:id="heroText" layoutX="83.0" layoutY="184.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded; -fx-font-size: 45;" text="Asian Elephant" wrappingWidth="302.0761260986328">
             <font>
                <Font size="21.0" />
             </font>
@@ -197,7 +197,7 @@
                </LinearGradient>
             </fill>
          </Text>
-         <Text fx:id="heroText24" layoutX="-10.0" layoutY="258.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded; -fx-rotate: 90;" text="facts" textAlignment="CENTER" wrappingWidth="141.0761260986328">
+         <Text fx:id="heroText24" layoutX="-10.0" layoutY="258.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded; -fx-rotate: -90;" text="facts" textAlignment="CENTER" wrappingWidth="141.0761260986328">
             <font>
                <Font size="21.0" />
             </font>
@@ -234,17 +234,17 @@
                      </Text>
                   </children>
                </Pane>
-               <Text fx:id="heroText12111" layoutX="8.0" layoutY="96.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded;" text="&gt; Grasslands, WoodLand or Forest" wrappingWidth="262.9999999999998">
+               <Text fx:id="heroText12111" layoutX="8.0" layoutY="96.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded; -fx-font-size: 15;" text="⚫ Grasslands, WoodLand or Forest" wrappingWidth="262.9999999999998">
                   <font>
                      <Font name="Arial Black" size="13.0" />
                   </font>
                </Text>
-               <Text fx:id="heroText121111" layoutX="8.0" layoutY="115.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded;" text="&gt; elephants are highly social animals." wrappingWidth="262.9999999999998">
+               <Text fx:id="heroText121111" layoutX="8.0" layoutY="119.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded; -fx-font-size: 15;" text="⚫ elephants are highly social animals." wrappingWidth="262.9999999999998">
                   <font>
                      <Font name="Arial Black" size="13.0" />
                   </font>
                </Text>
-               <Text fx:id="heroText1211111" layoutX="8.0" layoutY="134.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded;" text="&gt; They are known to form matriarchal herds of 12-20 individuals" wrappingWidth="262.9999999999998">
+               <Text fx:id="heroText1211111" layoutX="8.0" layoutY="157.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded; -fx-font-size: 15;" text="⚫ They are known to form matriarchal herds of 12-20 individuals" wrappingWidth="262.9999999999998">
                   <font>
                      <Font name="Arial Black" size="13.0" />
                   </font>
@@ -267,12 +267,12 @@
                      </Text>
                   </children>
                </Pane>
-               <Text fx:id="heroText1211" layoutX="7.0" layoutY="96.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded;" text="&gt; they can grow maximum 12 feet" wrappingWidth="262.9999999999998">
+               <Text fx:id="heroText1211" layoutX="7.0" layoutY="98.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded; -fx-font-size: 15;" text="⚫ they can grow maximum 12 feet" wrappingWidth="262.9999999999998">
                   <font>
                      <Font name="Arial Black" size="13.0" />
                   </font>
                </Text>
-               <Text fx:id="heroText121" layoutX="7.0" layoutY="116.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded;" text="&gt; females are smaller. " wrappingWidth="262.9999999999998">
+               <Text fx:id="heroText121" layoutX="7.0" layoutY="121.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded; -fx-font-size: 15;" text="⚫ females are smaller. " wrappingWidth="262.9999999999998">
                   <font>
                      <Font name="Arial Black" size="12.0" />
                   </font>
@@ -295,22 +295,22 @@
                      </Text>
                   </children>
                </Pane>
-               <Text fx:id="heroText12112" layoutX="8.0" layoutY="96.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded;" text="&gt; They are harbivoures. eat grass, fruits..." wrappingWidth="262.9999999999998">
+               <Text fx:id="heroText12112" layoutX="8.0" layoutY="96.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded; -fx-font-size: 15;" text="⚫They are harbivoures. eat grass, fruits..." wrappingWidth="262.9999999999998">
                   <font>
                      <Font name="Arial Black" size="13.0" />
                   </font>
                </Text>
-               <Text fx:id="heroText121121" layoutX="8.0" layoutY="115.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded;" text="&gt; Major Threats are ," wrappingWidth="262.9999999999998">
+               <Text fx:id="heroText121121" layoutX="8.0" layoutY="135.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded; -fx-font-size: 15;" text="⚫ Major Threats are ," wrappingWidth="262.9999999999998">
                   <font>
                      <Font name="Arial Black" size="13.0" />
                   </font>
                </Text>
-               <Text fx:id="heroText1211211" layoutX="23.0" layoutY="134.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded;" text=". Human setlements and deforestation" wrappingWidth="262.9999999999998">
+               <Text fx:id="heroText12112111" layoutX="23.0" layoutY="157.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded; -fx-font-size: 14;" text=". Human setlements and deforestation" wrappingWidth="262.9999999999998">
                   <font>
                      <Font name="Calibri Light Italic" size="13.0" />
                   </font>
                </Text>
-               <Text fx:id="heroText12112111" layoutX="23.0" layoutY="153.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded;" text=". Agricultural development" wrappingWidth="262.9999999999998">
+               <Text fx:id="heroText12112111" layoutX="23.0" layoutY="176.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded; -fx-font-size: 14;" text=". Agricultural development" wrappingWidth="262.9999999999998">
                   <font>
                      <Font name="Arial Black" size="13.0" />
                   </font>

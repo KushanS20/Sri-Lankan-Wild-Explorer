@@ -4,13 +4,13 @@ import About.AboutController;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.media.Media;
 import javafx.scene.media.MediaPlayer;
 import javafx.scene.media.MediaView;
 import javafx.stage.Stage;
-
 import java.io.IOException;
 import java.net.URL;
 
@@ -27,28 +27,28 @@ public class Homecontroller {
 
     public void initialize() {
         try {
-            // Path to your video files
+
             URL videoUrl = getClass().getResource("/Assests/Sri Lanka Wildlife #shorts.mp4");
-            URL videoUrl1 = getClass().getResource("/Assets/Sri Lanka's Wildlife has Leopards, Elephants and Crocodiles (Safari).mp4");
+            URL videoUrl1 = getClass().getResource("/Assests/Sri Lanka's Wildlife has Leopards, Elephants and Crocodiles (Safari).mp4");
 
             if (videoUrl == null || videoUrl1 == null) {
                 System.out.println("Video file not found.");
                 return;
             }
 
-            // Create Media objects for the videos
+
             Media media1 = new Media(videoUrl.toExternalForm());
             Media media2 = new Media(videoUrl1.toExternalForm());
 
-            // Create MediaPlayers for the Media
+
             mediaPlayer1 = new MediaPlayer(media1);
             mediaPlayer2 = new MediaPlayer(media2);
 
-            // Set the MediaPlayers to the MediaViews
+
             mediaView.setMediaPlayer(mediaPlayer1);
             mediaView1.setMediaPlayer(mediaPlayer2);
 
-            // Check if MediaViews are added to the scene graph
+
             if (mediaView == null) {
                 System.out.println("MediaView is null");
             } else {
@@ -76,9 +76,7 @@ public class Homecontroller {
         if (mediaPlayer1 != null) {
             mediaPlayer1.play();
         }
-        if (mediaPlayer2 != null) {
-            mediaPlayer2.play();
-        }
+
     }
 
     @FXML
@@ -86,9 +84,7 @@ public class Homecontroller {
         if (mediaPlayer1 != null) {
             mediaPlayer1.pause();
         }
-        if (mediaPlayer2 != null) {
-            mediaPlayer2.pause();
-        }
+
     }
 
     @FXML
@@ -98,9 +94,12 @@ public class Homecontroller {
 
     private void setUi(String location) throws IOException {
         Stage stage = (Stage) context.getScene().getWindow();
-        stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("../" + location + ".fxml"))));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("../"+location + ".fxml"));
+        Parent root = loader.load();
+        stage.setScene(new Scene(root));
         stage.centerOnScreen();
     }
+
 
     @FXML
     private void LogoutOnAction(ActionEvent actionEvent) throws IOException {
@@ -127,8 +126,20 @@ public class Homecontroller {
     }
 
     @FXML
-    private void ForestOnAction(ActionEvent actionEvent) throws IOException {
+    private void ForestonAction(ActionEvent actionEvent) throws IOException {
         handlePause(actionEvent);
         setUi("Forest/Forest");
+    }
+
+    public void handlePlay1(ActionEvent actionEvent) {
+        if (mediaPlayer2 != null) {
+            mediaPlayer2.play();
+        }
+    }
+
+    public void handlePause1(ActionEvent actionEvent) {
+        if (mediaPlayer2 != null) {
+            mediaPlayer2.pause();
+        }
     }
 }

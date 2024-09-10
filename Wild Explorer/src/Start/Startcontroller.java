@@ -11,15 +11,18 @@ import java.io.IOException;
 public class Startcontroller {
     public AnchorPane context;
 
-
-    public void ClickMeOnAction(ActionEvent actionEvent) throws IOException {
-        setUi("Login");
+    public void ClickMeOnAction(ActionEvent actionEvent) {
+        loadUI("Login");
     }
-    private void setUi(String location)throws IOException{
-        Stage stage = (Stage) context.getScene().getWindow();
-        stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("../login/"+location+".fxml"))));
-        stage.centerOnScreen();
 
-
+    private void loadUI(String fxmlName) {
+        try {
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("../login/" + fxmlName + ".fxml"));
+            Stage stage = (Stage) context.getScene().getWindow();
+            stage.setScene(new Scene(loader.load()));
+            stage.centerOnScreen();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }

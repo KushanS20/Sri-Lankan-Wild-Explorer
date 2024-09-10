@@ -55,7 +55,7 @@
                     <Image url="@../Assests/animal-hero-title-bg-savannah.png" />
                 </image>
             </ImageView>
-            <Text fx:id="heroText1112" layoutX="912.0" layoutY="176.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded;" text="Lion" textAlignment="CENTER" wrappingWidth="189.0761260986328">
+            <Text fx:id="heroText1112" layoutX="912.0" layoutY="176.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded; -fx-font-size: 45;" text="Lion" textAlignment="CENTER" wrappingWidth="189.0761260986328">
                 <font>
                     <Font size="21.0" />
                 </font>
@@ -175,7 +175,7 @@
                     </LinearGradient>
                 </fill>
             </Text>
-            <Text fx:id="heroText24" layoutX="-10.0" layoutY="258.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded; -fx-rotate: 90;" text="facts" textAlignment="CENTER" wrappingWidth="141.0761260986328">
+            <Text fx:id="heroText24" layoutX="-10.0" layoutY="258.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded; -fx-rotate: -90;" text="facts" textAlignment="CENTER" wrappingWidth="141.0761260986328">
                 <font>
                     <Font size="21.0" />
                 </font>
@@ -212,12 +212,12 @@
                             </Text>
                         </children>
                     </Pane>
-                    <Text fx:id="heroText12111" layoutX="8.0" layoutY="96.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded;" text="&gt;well-adapted to the open grasslands and savannas" wrappingWidth="262.9999999999998">
+                    <Text fx:id="heroText12111" layoutX="8.0" layoutY="98.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded; -fx-font-size: 15;" text="⚫well-adapted to the open grasslands and savannas" wrappingWidth="262.9999999999998">
                         <font>
                             <Font name="Arial Black" size="13.0" />
                         </font>
                     </Text>
-                    <Text fx:id="heroText121111" layoutX="7.0" layoutY="145.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded;" text="&gt;Lions are social animals that live in groups called prides, which typically consist of related females, their offspring." wrappingWidth="262.9999999999998">
+                    <Text fx:id="heroText121111" layoutX="7.0" layoutY="141.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded; -fx-font-size: 15;" text="⚫Lions are social animals that live in groups called prides, which typically consist of related females, their offspring." wrappingWidth="255.99999999999977">
                         <font>
                             <Font name="Arial Black" size="13.0" />
                         </font>
@@ -239,12 +239,12 @@
                             </Text>
                         </children>
                     </Pane>
-                    <Text fx:id="heroText1211" layoutX="8.0" layoutY="146.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded;" text="weigh between 330 to 550 pounds " wrappingWidth="262.9999999999998">
+                    <Text fx:id="heroText1211" layoutX="8.0" layoutY="165.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded; -fx-font-size: 15;" text="⚫ weight between 330 to 550 pounds " wrappingWidth="262.9999999999998">
                         <font>
                             <Font name="Arial Black" size="13.0" />
                         </font>
                     </Text>
-                    <Text fx:id="heroText121" layoutX="9.0" layoutY="101.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded;" text="&gt; Lions are large and muscular cats, with males being significantly larger than females." wrappingWidth="262.9999999999998">
+                    <Text fx:id="heroText121" layoutX="9.0" layoutY="105.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded; -fx-font-size: 15;" text="⚫ Lions are large and muscular cats, with males being significantly larger than females." wrappingWidth="249.99999999999977">
                         <font>
                             <Font name="Arial Black" size="12.0" />
                         </font>
@@ -272,12 +272,12 @@
                             <Image url="@../Assests/meat.png" />
                         </image>
                     </ImageView>
-                    <Text fx:id="heroText121122" layoutX="18.0" layoutY="106.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded;" text="&gt; Carnivourous animal" wrappingWidth="262.9999999999998">
+                    <Text fx:id="heroText121122" layoutX="14.0" layoutY="106.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded; -fx-font-size: 15;" text="⚫ Carnivourous animal" wrappingWidth="262.9999999999998">
                         <font>
                             <Font name="Arial Black" size="13.0" />
                         </font>
                     </Text>
-                    <Text fx:id="heroText121121" layoutX="14.0" layoutY="125.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded;" text="&gt; Deforestation, agricultural expansion, and urbanization " wrappingWidth="262.9999999999998">
+                    <Text fx:id="heroText121121" layoutX="14.0" layoutY="129.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded; -fx-font-size: 15;" text="⚫ Deforestation, agricultural expansion, and urbanization " wrappingWidth="262.9999999999998">
                         <font>
                             <Font name="Arial Black" size="13.0" />
                         </font>

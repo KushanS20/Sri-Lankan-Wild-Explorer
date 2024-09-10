@@ -52,39 +52,39 @@
                 </font>
             </Text>
             <Separator layoutX="69.0" layoutY="64.0" prefHeight="0.0" prefWidth="540.0" />
-            <Text fill="WHITE" layoutX="68.0" layoutY="87.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&gt; Sloth bears usually live alone, but sometimes they are seen with their cubs. They are good mothers and take care of their babies until they are old enough to be on their own" wrappingWidth="733.4095153808594">
+            <Text fill="WHITE" layoutX="68.0" layoutY="87.0" strokeType="OUTSIDE" strokeWidth="0.0" text="⚫ Sloth bears usually live alone, but sometimes they are seen with their cubs. They are good mothers and take care of their babies until they are old enough to be on their own" wrappingWidth="733.4095153808594">
                 <font>
-                    <Font name="System Italic" size="13.0" />
+                    <Font name="System Italic" size="20.0" />
                 </font>
             </Text>
-            <Text fill="WHITE" layoutX="69.0" layoutY="127.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&gt; Sloth bears love to eat insects, especially termites and ants." wrappingWidth="711.8095092773438">
+            <Text fill="WHITE" layoutX="69.0" layoutY="164.0" strokeType="OUTSIDE" strokeWidth="0.0" text="⚫ Sloth bears love to eat insects, especially termites and ants." wrappingWidth="711.8095092773438">
                 <font>
-                    <Font name="System Italic" size="13.0" />
+                    <Font name="System Italic" size="20.0" />
                 </font>
             </Text>
-            <Text fill="WHITE" layoutX="69.0" layoutY="150.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&gt; come out to hunt for food when it's dark." wrappingWidth="711.8095092773438">
+            <Text fill="WHITE" layoutX="69.0" layoutY="189.0" strokeType="OUTSIDE" strokeWidth="0.0" text="⚫ come out to hunt for food when it's dark." wrappingWidth="711.8095092773438">
                 <font>
-                    <Font name="System Italic" size="13.0" />
+                    <Font name="System Italic" size="20.0" />
                 </font>
             </Text>
-            <Text fill="WHITE" layoutX="58.0" layoutY="259.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Photo Gallery" wrappingWidth="471.80950927734375">
+            <Text fill="WHITE" layoutX="77.0" layoutY="345.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Photo Gallery" wrappingWidth="471.80950927734375">
                 <font>
                     <Font size="29.0" />
                 </font>
             </Text>
-            <ImageView fx:id="imgView" fitHeight="336.0" fitWidth="540.0" layoutX="32.0" layoutY="285.0" pickOnBounds="true">
+            <ImageView fx:id="imgView" fitHeight="336.0" fitWidth="540.0" layoutX="69.0" layoutY="371.0" pickOnBounds="true">
                 <image>
                     <Image url="@../Assests/Leonardo_Diffusion_XL_sri_lankan_stag_1.jpg" />
                 </image>
             </ImageView>
-            <Button fx:id="prevBtn" layoutX="169.0" layoutY="647.0" mnemonicParsing="false" text="Previous" />
-            <Button fx:id="nextBtn" layoutX="258.0" layoutY="647.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="61.0" text="Next" />
-            <Text fill="WHITE" layoutX="69.0" layoutY="174.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&gt; Sloth bears have shaggy black fur and a distinctive white V-shaped mark on their chest." wrappingWidth="711.8095092773438">
+            <Button fx:id="prevBtn" layoutX="256.0" layoutY="733.0" mnemonicParsing="false" onAction="#backonaction" text="Previous" />
+            <Button fx:id="nextBtn" layoutX="345.0" layoutY="733.0" mnemonicParsing="false" onAction="#nextonaction" prefHeight="25.0" prefWidth="61.0" text="Next" />
+            <Text fill="WHITE" layoutX="69.0" layoutY="216.0" strokeType="OUTSIDE" strokeWidth="0.0" text="⚫ Sloth bears have shaggy black fur and a distinctive white V-shaped mark on their chest." wrappingWidth="711.8095092773438">
                 <font>
-                    <Font name="System Italic" size="13.0" />
+                    <Font name="System Italic" size="20.0" />
                 </font>
             </Text>
-            <Separator layoutX="58.0" layoutY="204.0" prefHeight="3.0" prefWidth="527.0" />
+            <Separator layoutX="70.0" layoutY="290.0" prefHeight="3.0" prefWidth="527.0" />
 
         </children>
 

@@ -12,7 +12,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane fx:id="bg2" prefHeight="962.0" prefWidth="1357.0" stylesheets="@../Assests/style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="elephant.ElephantNext">
+<AnchorPane fx:id="bg2" prefHeight="962.0" prefWidth="1357.0" stylesheets="@../Assests/style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="elephant.ElephantNext">
 
     <Rectangle arcHeight="5.0" arcWidth="5.0" height="63.0" layoutY="-6.0" stroke="BLACK" strokeType="INSIDE" width="1413.0">
         <fill>
@@ -52,39 +52,34 @@
             </font>
          </Text>
          <Separator layoutX="69.0" layoutY="64.0" prefHeight="0.0" prefWidth="540.0" />
-         <Text fill="WHITE" layoutX="-9.0" layoutY="99.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&gt; These highly intelligent animals possess the largest brains of all terrestrial mammals in the world" textAlignment="CENTER" wrappingWidth="711.8095092773438">
+         <Text fill="WHITE" layoutX="69.0" layoutY="99.0" strokeType="OUTSIDE" strokeWidth="0.0" text="⚫ These highly intelligent animals possess the largest brains of all terrestrial mammals in the world" wrappingWidth="711.8095092773438">
             <font>
-               <Font name="System Italic" size="13.0" />
+               <Font name="System Italic" size="20.0" />
             </font>
          </Text>
-         <Text fill="WHITE" layoutX="69.0" layoutY="127.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&gt; Sri Lankan elephants are one of the few species that can recognize themselves in a mirror." wrappingWidth="711.8095092773438">
+         <Text fill="WHITE" layoutX="69.0" layoutY="151.0" strokeType="OUTSIDE" strokeWidth="0.0" text="⚫ Sri Lankan elephants are one of the few species that can recognize themselves in a mirror." wrappingWidth="711.8095092773438">
             <font>
-               <Font name="System Italic" size="13.0" />
+               <Font name="System Italic" size="20.0" />
             </font>
          </Text>
-         <Text fill="WHITE" layoutX="69.0" layoutY="155.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&gt;  the elephants usually cover their body with dust or mud to protect their skin." wrappingWidth="711.8095092773438">
+         <Text fill="WHITE" layoutX="69.0" layoutY="205.0" strokeType="OUTSIDE" strokeWidth="0.0" text="⚫ The elephants usually cover their body with dust or mud to protect their skin." wrappingWidth="711.8095092773438">
             <font>
-               <Font name="System Italic" size="13.0" />
+               <Font name="System Italic" size="20.0" />
             </font>
          </Text>
-         <Text fill="WHITE" layoutX="58.0" layoutY="259.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Photo Gallery" wrappingWidth="471.80950927734375">
+         <Text fill="WHITE" layoutX="83.0" layoutY="341.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Photo Gallery" wrappingWidth="471.80950927734375">
             <font>
                <Font size="29.0" />
             </font>
          </Text>
-         <ImageView fx:id="imgView" fitHeight="336.0" fitWidth="540.0" layoutX="32.0" layoutY="285.0" pickOnBounds="true">
+         <ImageView fx:id="imgView" fitHeight="336.0" fitWidth="540.0" layoutX="81.0" layoutY="367.0" pickOnBounds="true">
             <image>
                <Image url="@../Assests/Leonardo_Diffusion_XL_sri_lankan_stag_1.jpg" />
             </image>
          </ImageView>
-         <Button fx:id="prevBtn" layoutX="169.0" layoutY="647.0" mnemonicParsing="false"  text="Previous" />
-         <Button fx:id="nextBtn" layoutX="258.0" layoutY="647.0" mnemonicParsing="false"  prefHeight="25.0" prefWidth="61.0" text="Next" />
-         <Text fill="WHITE" layoutX="69.0" layoutY="184.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&gt;  the elephants usually cover their body with dust or mud to protect their skin." wrappingWidth="711.8095092773438">
-            <font>
-               <Font name="System Italic" size="13.0" />
-            </font>
-         </Text>
-         <Separator layoutX="58.0" layoutY="204.0" prefHeight="3.0" prefWidth="527.0" />
+         <Button fx:id="prevBtn" layoutX="258.0" layoutY="729.0" mnemonicParsing="false" onAction="#backonaction" text="Previous" />
+         <Button fx:id="nextBtn" layoutX="347.0" layoutY="729.0" mnemonicParsing="false" onAction="#nextonaction" prefHeight="25.0" prefWidth="61.0" text="Next" />
+         <Separator layoutX="83.0" layoutY="286.0" prefHeight="3.0" prefWidth="527.0" />
       </children>
    </Pane>
     <Button blendMode="LIGHTEN" layoutX="89.0" layoutY="860.0" mnemonicParsing="false" onAction="#previousOnAction" prefHeight="38.0" prefWidth="106.0" style="-fx-background-color: white;" text="Previous">

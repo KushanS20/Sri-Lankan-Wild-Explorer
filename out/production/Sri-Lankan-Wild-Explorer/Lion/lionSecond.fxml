@@ -12,7 +12,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane fx:id="lionSecbg" prefHeight="962.0" prefWidth="1357.0" stylesheets="@../Assests/style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Lion.lionsecond">
+<AnchorPane fx:id="lionSecbg" prefHeight="962.0" prefWidth="1357.0" stylesheets="@../Assests/style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Lion.lionsecond">
 
     <Rectangle arcHeight="5.0" arcWidth="5.0" height="63.0" layoutY="-6.0" stroke="BLACK" strokeType="INSIDE" width="1413.0">
         <fill>
@@ -52,39 +52,39 @@
                 </font>
             </Text>
             <Separator layoutX="69.0" layoutY="64.0" prefHeight="0.0" prefWidth="540.0" />
-            <Text fill="WHITE" layoutX="68.0" layoutY="101.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&gt; Male lions are recognized by their thick mane of fur." wrappingWidth="506.2095031738281">
+            <Text fill="WHITE" layoutX="68.0" layoutY="101.0" strokeType="OUTSIDE" strokeWidth="0.0" text="⚫ Male lions are recognized by their thick mane of fur." wrappingWidth="506.2095031738281">
                 <font>
-                    <Font name="System Italic" size="13.0" />
+                    <Font name="System Italic" size="20.0" />
                 </font>
             </Text>
-            <Text fill="WHITE" layoutX="69.0" layoutY="127.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&gt; A lion's roar can be heard up to 3 miles away." wrappingWidth="711.8095092773438">
+            <Text fill="WHITE" layoutX="68.0" layoutY="132.0" strokeType="OUTSIDE" strokeWidth="0.0" text="⚫ A lion's roar can be heard up to 3 miles away." wrappingWidth="711.8095092773438">
                 <font>
-                    <Font name="System Italic" size="13.0" />
+                    <Font name="System Italic" size="20.0" />
                 </font>
             </Text>
-            <Text fill="WHITE" layoutX="69.0" layoutY="155.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&gt; Each individual lion has a unique pattern of whisker spots on its muzzle" wrappingWidth="711.8095092773438">
+            <Text fill="WHITE" layoutX="68.0" layoutY="164.0" strokeType="OUTSIDE" strokeWidth="0.0" text="⚫ Each individual lion has a unique pattern of whisker spots on its muzzle" wrappingWidth="711.8095092773438">
                 <font>
-                    <Font name="System Italic" size="13.0" />
+                    <Font name="System Italic" size="20.0" />
                 </font>
             </Text>
-            <Text fill="WHITE" layoutX="58.0" layoutY="259.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Photo Gallery" wrappingWidth="471.80950927734375">
+            <Text fill="WHITE" layoutX="77.0" layoutY="334.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Photo Gallery" wrappingWidth="471.80950927734375">
                 <font>
                     <Font size="29.0" />
                 </font>
             </Text>
-            <ImageView fx:id="imgView" fitHeight="336.0" fitWidth="540.0" layoutX="32.0" layoutY="285.0" pickOnBounds="true">
+            <ImageView fx:id="imgView" fitHeight="336.0" fitWidth="540.0" layoutX="79.0" layoutY="360.0" pickOnBounds="true">
                 <image>
                     <Image url="@../Assests/Leonardo_Diffusion_XL_sri_lankan_stag_1.jpg" />
                 </image>
             </ImageView>
-            <Button fx:id="prevBtn" layoutX="169.0" layoutY="647.0" mnemonicParsing="false"  text="Previous" />
-            <Button fx:id="nextBtn" layoutX="258.0" layoutY="647.0" mnemonicParsing="false"  prefHeight="25.0" prefWidth="61.0" text="Next" />
-            <Text fill="WHITE" layoutX="69.0" layoutY="184.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&gt;  Lions are the second largest of the big cats, only slightly smaller than the Siberian tiger. Male lions can weigh up to 550 pounds." wrappingWidth="711.8095092773438">
+            <Button fx:id="prevBtn" layoutX="248.0" layoutY="722.0" mnemonicParsing="false" onAction="#backonaction" text="Previous" />
+            <Button fx:id="nextBtn" layoutX="337.0" layoutY="722.0" mnemonicParsing="false" onAction="#nextonaction" prefHeight="25.0" prefWidth="61.0" text="Next" />
+            <Text fill="WHITE" layoutX="67.0" layoutY="196.0" strokeType="OUTSIDE" strokeWidth="0.0" text="⚫  Lions are the second largest of the big cats, only slightly smaller than the Siberian tiger. Male lions can weigh up to 550 pounds." wrappingWidth="711.8095092773438">
                 <font>
-                    <Font name="System Italic" size="13.0" />
+                    <Font name="System Italic" size="20.0" />
                 </font>
             </Text>
-            <Separator layoutX="58.0" layoutY="204.0" prefHeight="3.0" prefWidth="527.0" />
+            <Separator layoutX="78.0" layoutY="279.0" prefHeight="3.0" prefWidth="527.0" />
         </children>
     </Pane>
     <Button blendMode="LIGHTEN" layoutX="89.0" layoutY="860.0" mnemonicParsing="false" onAction="#previousOnAction" prefHeight="38.0" prefWidth="106.0" style="-fx-background-color: white;" text="Previous">

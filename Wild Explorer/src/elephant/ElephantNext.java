@@ -2,6 +2,7 @@ package elephant;
 
 import javafx.application.Application;
 import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
@@ -14,6 +15,34 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 public class ElephantNext   {
+    @FXML
+    private ImageView imgView;
+    @FXML
+    private Button prevBtn, nextbtn;
+
+    private Image[] images;
+    private int currentIndex = 0;
+
+    public void initialize() {
+        // Load images
+        images = new Image[] {
+                new Image("./Assests/Default_sri_lankan_wild_Elephants_background_images_for_wild_l_0.jpg"),
+                new Image("./Assests/Default_sri_lankan_wild_Elephants_background_images_for_wild_l_1.jpg"),
+        };
+        imgView.setImage(images[currentIndex]);
+    }
+
+    @FXML
+    private void backonaction() {
+        currentIndex = (currentIndex + 1) % images.length;
+        imgView.setImage(images[currentIndex]);
+    }
+
+    @FXML
+    private void nextonaction() {
+        currentIndex = (currentIndex - 1 + images.length) % images.length;
+        imgView.setImage(images[currentIndex]);
+    }
 //    private ArrayList<String> list = new ArrayList<String>();
 //    public Button nextBtn;
 //    public Button prevBtn;
@@ -41,6 +70,7 @@ public class ElephantNext   {
     public void Animalonaction(ActionEvent actionEvent)throws IOException {
         setUi("Animal/Animal");
     }
+
 
 //    public void slideNextImage(Image[] img){
 //        if(j < list.size()-1){

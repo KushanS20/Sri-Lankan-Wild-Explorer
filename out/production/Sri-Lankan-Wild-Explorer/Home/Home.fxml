@@ -62,7 +62,7 @@
                   <Font name="System Bold" size="23.0" />
                </font>
             </Button>
-            <Button id="a" alignment="CENTER_RIGHT" blendMode="DARKEN" cache="true" layoutX="2.0" layoutY="132.0" mnemonicParsing="false" onAction="#ForestOnAction" prefHeight="50.0" prefWidth="196.0" stylesheets="@../new.css" text="Forests   ">
+            <Button id="a" alignment="CENTER_RIGHT" blendMode="DARKEN" cache="true" layoutX="2.0" layoutY="132.0" mnemonicParsing="false" onAction="#ForestonAction" prefHeight="50.0" prefWidth="196.0" stylesheets="@../new.css" text="Forests   ">
                <font>
                   <Font name="System Bold" size="23.0" />
                </font>
@@ -184,7 +184,7 @@
       <Button blendMode="LIGHTEN" layoutX="1179.0" layoutY="504.0" onAction="#handlePause" text="Pause" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#a8a2a280" height="251.0" layoutX="233.0" layoutY="486.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="2.0" width="501.0" />
       <MediaView fx:id="mediaView1" fitHeight="250.0" fitWidth="500.0" layoutX="234.0" layoutY="486.0" />
-      <Button blendMode="LIGHTEN" layoutX="377.0" layoutY="761.0" onAction="#handlePlay" text="Play" />
-      <Button blendMode="LIGHTEN" layoutX="538.0" layoutY="761.0" onAction="#handlePause" text="Pause" />
+      <Button blendMode="LIGHTEN" layoutX="377.0" layoutY="761.0" onAction="#handlePlay1" text="Play" />
+      <Button blendMode="LIGHTEN" layoutX="538.0" layoutY="761.0" onAction="#handlePause1" text="Pause" />
    </children>
 </AnchorPane>

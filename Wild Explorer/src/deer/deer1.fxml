@@ -55,7 +55,7 @@
                     <Image url="@../Assests/animal-hero-title-bg-tundra.png" />
                 </image>
             </ImageView>
-            <Text fx:id="heroText1112" layoutX="912.0" layoutY="176.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded;" text="Deer" textAlignment="CENTER" wrappingWidth="189.0761260986328">
+            <Text fx:id="heroText1112" layoutX="1034.0" layoutY="184.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded; -fx-font-size: 45;" text="Deer" textAlignment="CENTER" wrappingWidth="189.0761260986328">
                 <font>
                     <Font size="21.0" />
                 </font>
@@ -175,7 +175,7 @@
                     </LinearGradient>
                 </fill>
             </Text>
-            <Text fx:id="heroText24" layoutX="-10.0" layoutY="258.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded; -fx-rotate: 90;" text="facts" textAlignment="CENTER" wrappingWidth="141.0761260986328">
+            <Text fx:id="heroText24" layoutX="-10.0" layoutY="258.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded; -fx-rotate: -90;" text="facts" textAlignment="CENTER" wrappingWidth="141.0761260986328">
                 <font>
                     <Font size="21.0" />
                 </font>
@@ -212,12 +212,12 @@
                             </Text>
                         </children>
                     </Pane>
-                    <Text fx:id="heroText12111" layoutX="8.0" layoutY="96.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded;" text="&gt;tundra, mountains, woodland" wrappingWidth="262.9999999999998">
+                    <Text fx:id="heroText12111" layoutX="8.0" layoutY="101.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded; -fx-font-size: 15;" text="⚫tundra, mountains, woodland" wrappingWidth="262.9999999999998">
                         <font>
                             <Font name="Arial Black" size="13.0" />
                         </font>
                     </Text>
-                    <Text fx:id="heroText121111" layoutX="8.0" layoutY="126.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded;" text="&gt;Deer are herbivores, feeding primarily on plant matter such as leaves, grasses, twigs, fruits, and acorns" wrappingWidth="262.9999999999998">
+                    <Text fx:id="heroText121111" layoutX="8.0" layoutY="126.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded; -fx-font-size: 15;" text="⚫Deer are herbivores, feeding primarily on plant matter such as leaves, grasses, twigs, fruits, and acorns" wrappingWidth="262.9999999999998">
                         <font>
                             <Font name="Arial Black" size="13.0" />
                         </font>
@@ -239,12 +239,12 @@
                             </Text>
                         </children>
                     </Pane>
-                    <Text fx:id="heroText1211" layoutX="9.0" layoutY="119.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded;" text="&gt;weigh around 20-30 pounds (9-14 kg), to large species like the moose, which can weigh up to 1,500 pounds (680 kg)" wrappingWidth="262.9999999999998">
+                    <Text fx:id="heroText1211" layoutX="9.0" layoutY="123.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded; -fx-font-size: 15;" text="⚫weigh around 20-30 pounds (9-14 kg), to large species like the moose, which can weigh up to 1,500 pounds (680 kg)" wrappingWidth="253.99999999999977">
                         <font>
                             <Font name="Arial Black" size="13.0" />
                         </font>
                     </Text>
-                    <Text fx:id="heroText121" layoutX="9.0" layoutY="101.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded;" text="&gt; 4 to 7 feet long" wrappingWidth="262.9999999999998">
+                    <Text fx:id="heroText121" layoutX="9.0" layoutY="101.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded; -fx-font-size: 15;" text="⚫ 4 to 7 feet long" wrappingWidth="262.9999999999998">
                         <font>
                             <Font name="Arial Black" size="12.0" />
                         </font>
@@ -272,12 +272,12 @@
                             <Image url="@../Assests/food-plants.png" />
                         </image>
                     </ImageView>
-                    <Text fx:id="heroText121122" layoutX="18.0" layoutY="106.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded;" text="&gt; plantsleaves, lichen, fungi" wrappingWidth="262.9999999999998">
+                    <Text fx:id="heroText121122" layoutX="14.0" layoutY="106.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded; -fx-font-size: 15;" text="⚫ plantsleaves, lichen, fungi" wrappingWidth="262.9999999999998">
                         <font>
                             <Font name="Arial Black" size="13.0" />
                         </font>
                     </Text>
-                    <Text fx:id="heroText121121" layoutX="14.0" layoutY="125.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded;" text="&gt; Deforestation, agricultural expansion, and urbanization " wrappingWidth="262.9999999999998">
+                    <Text fx:id="heroText121121" layoutX="14.0" layoutY="131.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded; -fx-font-size: 15;" text="⚫ Deforestation, agricultural expansion, and urbanization " wrappingWidth="262.9999999999998">
                         <font>
                             <Font name="Arial Black" size="13.0" />
                         </font>

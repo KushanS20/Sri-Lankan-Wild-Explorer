@@ -55,7 +55,7 @@
                     <Image url="@../Assests/animal-hero-tiger-cover.png" />
                 </image>
             </ImageView>
-            <Text fx:id="heroText1112" layoutX="912.0" layoutY="176.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded;" text="Tiger" textAlignment="CENTER" wrappingWidth="189.0761260986328">
+            <Text fx:id="heroText1112" layoutX="912.0" layoutY="176.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded; -fx-font-size: 45;" text="Tiger" textAlignment="CENTER" wrappingWidth="189.0761260986328">
                 <font>
                     <Font size="21.0" />
                 </font>
@@ -175,7 +175,7 @@
                     </LinearGradient>
                 </fill>
             </Text>
-            <Text fx:id="heroText24" layoutX="-10.0" layoutY="258.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded; -fx-rotate: 90;" text="facts" textAlignment="CENTER" wrappingWidth="141.0761260986328">
+            <Text fx:id="heroText24" layoutX="-10.0" layoutY="258.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded; -fx-rotate: -90;" text="facts" textAlignment="CENTER" wrappingWidth="141.0761260986328">
                 <font>
                     <Font size="21.0" />
                 </font>
@@ -212,7 +212,7 @@
                             </Text>
                         </children>
                     </Pane>
-                    <Text fx:id="heroText12111" layoutX="8.0" layoutY="96.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded;" text="&gt; habitats, including tropical rain forest, snow-covered coniferous and deciduous forests, mangrove swamps, and drier forest areas." wrappingWidth="262.9999999999998">
+                    <Text fx:id="heroText12111" layoutX="8.0" layoutY="96.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded; -fx-font-size: 15;" text="⚫ habitats, including tropical rain forest, snow-covered coniferous and deciduous forests, mangrove swamps, and drier forest areas." wrappingWidth="262.9999999999998">
                         <font>
                             <Font name="Arial Black" size="13.0" />
                         </font>
@@ -239,12 +239,12 @@
                             </Text>
                         </children>
                     </Pane>
-                    <Text fx:id="heroText1211" layoutX="9.0" layoutY="137.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded;" text="&gt;tigers can weigh anywhere from 200 to 700 pounds" wrappingWidth="262.9999999999998">
+                    <Text fx:id="heroText1211" layoutX="9.0" layoutY="125.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded; -fx-font-size: 15;" text="⚫ tigers can weigh anywhere from 200 to 700 pounds" wrappingWidth="262.9999999999998">
                         <font>
                             <Font name="Arial Black" size="13.0" />
                         </font>
                     </Text>
-                    <Text fx:id="heroText121" layoutX="9.0" layoutY="101.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded;" text="&gt; adults are  8 to 10 feet long" wrappingWidth="262.9999999999998">
+                    <Text fx:id="heroText121" layoutX="9.0" layoutY="101.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded; -fx-font-size: 15;" text="⚫ adults are  8 to 10 feet long" wrappingWidth="262.9999999999998">
                         <font>
                             <Font name="Arial Black" size="12.0" />
                         </font>
@@ -272,7 +272,7 @@
                             <Image url="@../Assests/habitats-forest.png" />
                         </image>
                     </ImageView>
-                    <Text fx:id="heroText121122" layoutY="103.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded;" text="&gt; carnivourous animal. eat deers, rabbits etc" wrappingWidth="262.9999999999998">
+                    <Text fx:id="heroText121122" layoutX="6.0" layoutY="106.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded; -fx-font-size: 15;" text="⚫ carnivourous animal. eat deers, rabbits etc" wrappingWidth="253.99999290704727">
                         <font>
                             <Font name="Arial Black" size="13.0" />
                         </font>

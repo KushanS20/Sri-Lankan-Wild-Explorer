@@ -12,9 +12,7 @@ public class AppInitializer extends Application {
         DatabaseConnection instance = DatabaseConnection.getInstance();
         instance.getConnection();
         launch(args);
-
     }
-
     @Override
     public void start(Stage primaryStage) throws Exception {
         URL resource = getClass().getResource("Start/Start.fxml");

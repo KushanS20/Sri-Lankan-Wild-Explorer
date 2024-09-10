@@ -55,7 +55,7 @@
                     <Image url="@../Assests/bear-cover-img.png" />
                 </image>
             </ImageView>
-         <Text fx:id="heroText1112" layoutX="912.0" layoutY="176.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded;" text="Sloth Bear" textAlignment="CENTER" wrappingWidth="189.0761260986328">
+         <Text fx:id="heroText1112" layoutX="914.0" layoutY="157.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded; -fx-font-size: 45;" text="Sloth Bear" textAlignment="CENTER" wrappingWidth="236.0761260986328">
             <font>
                <Font size="21.0" />
             </font>
@@ -175,7 +175,7 @@
                     </LinearGradient>
                 </fill>
             </Text>
-            <Text fx:id="heroText24" layoutX="-10.0" layoutY="258.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded; -fx-rotate: 90;" text="facts" textAlignment="CENTER" wrappingWidth="141.0761260986328">
+            <Text fx:id="heroText24" layoutX="-10.0" layoutY="258.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded; -fx-rotate: -90;" text="facts" textAlignment="CENTER" wrappingWidth="141.0761260986328">
                 <font>
                     <Font size="21.0" />
                 </font>
@@ -212,12 +212,12 @@
                             </Text>
                         </children>
                     </Pane>
-                    <Text fx:id="heroText12111" layoutX="8.0" layoutY="96.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded;" text="&gt; create dens or shelters in dense vegetation, hollow trees, or burrows in the ground" wrappingWidth="262.9999999999998">
+                    <Text fx:id="heroText12111" layoutX="5.0" layoutY="98.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded; -fx-font-size: 15;" text="⚫ create dens or shelters in dense vegetation, hollow trees, or burrows in the ground" wrappingWidth="252.99999999999977">
                         <font>
                             <Font name="Arial Black" size="13.0" />
                         </font>
                     </Text>
-                    <Text fx:id="heroText121111" layoutX="11.0" layoutY="163.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded;" text="&gt; not typically regarded as highly intelligent compared to elephants" wrappingWidth="262.9999999999998">
+                    <Text fx:id="heroText121111" layoutX="4.0" layoutY="163.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded; -fx-font-size: 15;" text="⚫ not typically regarded as highly intelligent compared to elephants" wrappingWidth="262.9999999999998">
                         <font>
                             <Font name="Arial Black" size="13.0" />
                         </font>
@@ -239,17 +239,17 @@
                             </Text>
                         </children>
                     </Pane>
-                    <Text fx:id="heroText1211" layoutX="9.0" layoutY="137.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded;" text="&gt; Male sloth bears: Approximately 2 to 3 feet at the shoulder." wrappingWidth="262.9999999999998">
+                    <Text fx:id="heroText1211" layoutX="9.0" layoutY="158.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded; -fx-font-size: 15;" text="⚫ Male sloth bears: Approximately 2 to 3 feet at the shoulder." wrappingWidth="253.00000673532486">
                         <font>
                             <Font name="Arial Black" size="13.0" />
                         </font>
                     </Text>
-                    <Text fx:id="heroText121" layoutX="9.0" layoutY="101.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded;" text="&gt; Female sloth bears: Approximately 1.6 to 2.3 feet at the shoulder." wrappingWidth="262.9999999999998">
+                    <Text fx:id="heroText121" layoutX="9.0" layoutY="99.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded; -fx-font-size: 15;" text="⚫ Female sloth bears: Approximately 1.6 to 2.3 feet at the shoulder." wrappingWidth="252.99999618530273">
                         <font>
                             <Font name="Arial Black" size="12.0" />
                         </font>
                     </Text>
-                    <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="50.0" layoutY="178.0" pickOnBounds="true" preserveRatio="true">
+                    <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="50.0" layoutY="182.0" pickOnBounds="true" preserveRatio="true">
                         <image>
                             <Image url="@../Assests/card-bed-size-vs-bear.png" />
                         </image>
@@ -267,7 +267,7 @@
                             </Text>
                         </children>
                     </Pane>
-                    <Text fx:id="heroText12112" layoutX="13.0" layoutY="129.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded;" text="&gt; Their diet can include berries, honey, flowers," wrappingWidth="262.9999999999998">
+                    <Text fx:id="heroText12112" layoutX="8.0" layoutY="139.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded; -fx-font-size: 15;" text="⚫ Their diet can include berries, honey, flowers," wrappingWidth="262.9999999999998">
                         <font>
                             <Font name="Arial Black" size="13.0" />
                         </font>
@@ -277,12 +277,12 @@
                             <Image url="@../Assests/food-omnivore.png" />
                         </image>
                     </ImageView>
-               <Text fx:id="heroText121122" layoutX="18.0" layoutY="106.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded;" text="&gt; eat insects, especially termites and ants" wrappingWidth="262.9999999999998">
+               <Text fx:id="heroText121122" layoutX="8.0" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded; -fx-font-size: 15;" text="⚫ eat insects, especially termites and ants" wrappingWidth="253.00000673532486">
                   <font>
                      <Font name="Arial Black" size="13.0" />
                   </font>
                </Text>
-               <Text fx:id="heroText121121" layoutX="10.0" layoutY="172.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded;" text="&gt; Deforestation, agricultural expansion, and urbanization " wrappingWidth="262.9999999999998">
+               <Text fx:id="heroText121121" layoutX="8.0" layoutY="179.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: houschka-rounded; -fx-font-size: 15;" text="⚫ Deforestation, agricultural expansion, and urbanization " wrappingWidth="262.9999999999998">
                   <font>
                      <Font name="Arial Black" size="13.0" />
                   </font>
